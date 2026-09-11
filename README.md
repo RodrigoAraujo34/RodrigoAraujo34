@@ -11,7 +11,7 @@
 
 <br><br>
 
-[![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujoca2-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujoca2/)
+[![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujca2-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujca2)
 [![Download MOD](https://img.shields.io/badge/Download-Brake_Fade_v0.3-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 
 <br>
@@ -177,8 +177,46 @@ O MOD possui versões preparadas para diferentes formas de controle.
 
 <br>
 
-> O link acima sempre será utilizado para disponibilizar as versões
+> O link acima será utilizado para disponibilizar as versões
 > oficiais do projeto.
+
+</div>
+
+---
+
+# 🎥 Tutoriais em Vídeo
+
+<div align="center">
+
+## 📺 Aprenda a instalar e configurar o MOD
+
+Está com dúvida para instalar ou configurar o **Super Aquecimento dos Freios**?
+
+Preparei tutoriais em vídeo mostrando o processo para facilitar a instalação
+e configuração do MOD no **Euro Truck Simulator 2**.
+
+<br>
+
+### 🎬 Tutorial #1
+
+[![Assistir Tutorial](https://img.shields.io/badge/▶_ASSISTIR_TUTORIAL_1-YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=pR7P1BxTyl8)
+
+<br><br>
+
+### 🎬 Tutorial #2
+
+[![Assistir Tutorial](https://img.shields.io/badge/▶_ASSISTIR_TUTORIAL_2-YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=BuuNf36USyU)
+
+<br><br>
+
+![YouTube](https://img.shields.io/badge/TUTORIAIS-YOUTUBE-FF0000?style=flat-square&logo=youtube&logoColor=white)
+![ETS2](https://img.shields.io/badge/JOGO-ETS2-F36F21?style=flat-square)
+![Ajuda](https://img.shields.io/badge/INSTALAÇÃO-E_CONFIGURAÇÃO-28A745?style=flat-square)
+
+<br>
+
+> 💡 **Recomendação:** assista aos tutoriais antes da instalação,
+> principalmente se estiver utilizando o MOD pela primeira vez.
 
 </div>
 
@@ -219,7 +257,7 @@ c2ad1129-8267-4e80-a0b6-2e0ddb93526c
 
 <br>
 
-> 💡 Copie a chave acima e utilize a opção de pagamento por
+> 💡 Copie a chave acima e utilize a opção
 > **PIX → Chave Aleatória** no aplicativo do seu banco.
 
 </div>
@@ -415,6 +453,13 @@ Acompanhe atualizações dos Mods, testes, novidades e futuros projetos.
 
 <br><br>
 
+## 🎥 YouTube — Tutoriais
+
+[![Tutorial 1](https://img.shields.io/badge/YouTube-Tutorial_1-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=pR7P1BxTyl8)
+[![Tutorial 2](https://img.shields.io/badge/YouTube-Tutorial_2-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=BuuNf36USyU)
+
+<br><br>
+
 ## 🐙 GitHub
 
 [![GitHub](https://img.shields.io/badge/GitHub-RodrigoAraujo34-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RodrigoAraujo34)
@@ -455,6 +500,7 @@ na seção de apoio deste README.
 
 [![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujca2-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujca2)
 [![GitHub](https://img.shields.io/badge/GitHub-RodrigoAraujo34-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RodrigoAraujo34)
+[![YouTube](https://img.shields.io/badge/YouTube-Tutoriais-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=pR7P1BxTyl8)
 [![Download](https://img.shields.io/badge/Download-Brake_Fade_v0.3-4285F4?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 
 <br><br>
@@ -465,6 +511,6 @@ na seção de apoio deste README.
 
 ### 💜 Gostou do projeto? Considere fazer uma contribuição via PIX.
 
-**⭐ Obrigado por apoiar meus projetos!**
+### ⭐ Obrigado por apoiar meus projetos!
 
 </div>
