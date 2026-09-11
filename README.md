@@ -11,7 +11,7 @@
 
 <br><br>
 
-[![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujoca2-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujca/2)
+[![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujca2-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujca2)
 [![Download MOD](https://img.shields.io/badge/Download-Brake_Fade_v0.3-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 
 <br>
@@ -26,11 +26,15 @@
 
 Olá! Me chamo **Rodrigo Araújo Campos**.
 
-Sou desenvolvedor de Mods para **Euro Truck Simulator 2 (ETS2)**, utilizando **Inteligência Artificial como ferramenta de apoio no desenvolvimento**.
+Sou desenvolvedor de Mods para **Euro Truck Simulator 2 (ETS2)**, utilizando
+**Inteligência Artificial como ferramenta de apoio no desenvolvimento**.
 
-Meu objetivo é criar modificações que adicionem novas mecânicas e aumentem o nível de **realismo, dificuldade e imersão** dentro do Euro Truck Simulator 2.
+Meu objetivo é desenvolver modificações que adicionem novas mecânicas e
+aumentem o nível de **realismo, dificuldade e imersão** dentro do ETS2.
 
-Atualmente trabalho principalmente no desenvolvimento de sistemas e **Plugins DLL**, buscando adicionar ao jogo mecânicas que originalmente não estão presentes.
+Atualmente trabalho principalmente no desenvolvimento de sistemas e
+**Plugins DLL**, buscando adicionar mecânicas que o jogo originalmente
+não possui.
 
 ### 🎯 Meu foco
 
@@ -40,7 +44,7 @@ Atualmente trabalho principalmente no desenvolvimento de sistemas e **Plugins DL
 - 🎮 Maior imersão
 - 🛠️ Plugins para ETS2
 - 🧪 Sistemas experimentais
-- 🤖 Desenvolvimento auxiliado por Inteligência Artificial
+- 🤖 Desenvolvimento auxiliado por IA
 
 ---
 
@@ -58,15 +62,20 @@ Atualmente trabalho principalmente no desenvolvimento de sistemas e **Plugins DL
 
 <br>
 
-> 🔥 Sistema de **Brake Fade** desenvolvido para adicionar simulação de temperatura e perda de eficiência dos freios ao Euro Truck Simulator 2.
+> 🔥 Sistema de **Brake Fade** desenvolvido para adicionar simulação de
+> temperatura e perda de eficiência dos freios ao Euro Truck Simulator 2.
 
-O **Super Aquecimento dos Freios** adiciona uma nova mecânica ao ETS2, fazendo com que o jogador precise administrar corretamente a utilização dos freios.
+O **Super Aquecimento dos Freios** adiciona uma nova mecânica ao ETS2,
+fazendo com que o jogador precise administrar corretamente a utilização
+dos freios.
 
-Frenagens prolongadas, descidas e principalmente **cargas pesadas** podem aumentar significativamente a temperatura do sistema de frenagem.
+Frenagens prolongadas, descidas e principalmente **cargas pesadas** podem
+aumentar significativamente a temperatura do sistema de frenagem.
 
-Quanto maior a temperatura dos freios, menor será sua eficiência.
+Quanto maior a temperatura, menor será a eficiência dos freios.
 
-Em situações extremas, o jogador poderá enfrentar uma **perda severa ou até total da capacidade de frenagem**.
+Em situações extremas, o jogador poderá enfrentar uma **perda severa ou
+até total da capacidade de frenagem**.
 
 ---
 
@@ -74,9 +83,9 @@ Em situações extremas, o jogador poderá enfrentar uma **perda severa ou até 
 
 ✅ Simulação dinâmica da temperatura dos freios  
 ✅ Aquecimento progressivo durante frenagens  
-✅ Resfriamento progressivo ao deixar de utilizar os freios  
+✅ Resfriamento progressivo  
 ✅ Perda gradual da eficiência de frenagem  
-✅ Temperaturas extremas podem causar perda total dos freios  
+✅ Perda total dos freios em temperaturas extremas  
 ✅ Peso do caminhão e da carga influencia no aquecimento  
 ✅ Cargas extremamente pesadas aumentam ainda mais a temperatura  
 ✅ Sistema desenvolvido através de Plugin/DLL  
@@ -89,7 +98,7 @@ Em situações extremas, o jogador poderá enfrentar uma **perda severa ou até 
 
 # 🌡️ Sistema de Temperatura
 
-O MOD simula diferentes condições dos freios de acordo com a temperatura.
+O MOD simula diferentes condições dos freios de acordo com sua temperatura.
 
 | Temperatura | Condição |
 |:---:|:---|
@@ -99,22 +108,23 @@ O MOD simula diferentes condições dos freios de acordo com a temperatura.
 | 🔴 `350°C – 499°C` | Situação crítica |
 | ☠️ `500°C` | Perda total da eficiência |
 
-> ⚠️ **Cuidado nas descidas!**
+> ### ⚠️ Cuidado nas descidas!
 >
 > Utilizar os freios continuamente poderá provocar superaquecimento.
-> Utilize o freio motor, reduza a velocidade e planeje suas frenagens.
+>
+> Utilize o **freio motor**, reduza a velocidade e planeje suas frenagens.
 
 ---
 
 # ⚖️ Peso e Aquecimento
 
-O sistema de temperatura também considera o **peso total do veículo**.
+O sistema também considera o **peso total do veículo**.
 
-Quanto maior for o peso do caminhão e da carga, maior será o esforço necessário durante uma frenagem e, consequentemente, maior será o aquecimento dos freios.
+Quanto maior for o peso do caminhão e da carga, maior será o esforço
+necessário durante uma frenagem e, consequentemente, maior será o
+aquecimento dos freios.
 
 Isso torna viagens com cargas pesadas muito mais desafiadoras.
-
-### 🚛 Exemplos
 
 | Peso | Aquecimento |
 |:---:|:---:|
@@ -125,7 +135,8 @@ Isso torna viagens com cargas pesadas muito mais desafiadoras.
 | 🚛 50 toneladas | Muito Alto |
 | 🚛 60+ toneladas | Extremo 🔥 |
 
-> 🔥 Nas versões mais recentes do sistema, cargas extremamente pesadas podem gerar níveis ainda maiores de aquecimento.
+> 🔥 Cargas extremamente pesadas podem gerar níveis ainda maiores
+> de aquecimento.
 
 ---
 
@@ -164,7 +175,84 @@ O MOD possui versões preparadas para diferentes formas de controle.
 
 📁 **Pasta Oficial do Projeto**
 
+<br>
+
+> O link acima sempre será utilizado para disponibilizar as versões
+> oficiais do projeto.
+
 </div>
+
+---
+
+# 💜 Apoie o Desenvolvimento
+
+<div align="center">
+
+## ☕ Gostou do MOD?
+
+O **Super Aquecimento dos Freios — Brake Fade** é disponibilizado
+**gratuitamente para a comunidade**.
+
+Se você gostou do projeto e quiser contribuir com o desenvolvimento de
+**novas versões, melhorias e novos Mods para Euro Truck Simulator 2**,
+você pode fazer uma contribuição voluntária via **PIX**.
+
+<br>
+
+### 💜 QUALQUER VALOR JÁ AJUDA!
+
+![PIX](https://img.shields.io/badge/DOAÇÃO-PIX-8A2BE2?style=for-the-badge)
+![Projeto](https://img.shields.io/badge/APOIE-O_PROJETO-6F2DA8?style=for-the-badge)
+![Gratuito](https://img.shields.io/badge/MOD-CONTINUA_GRATUITO-success?style=for-the-badge)
+
+<br><br>
+
+## 🔑 Chave PIX
+
+```text
+c2ad1129-8267-4e80-a0b6-2e0ddb93526c
+```
+
+### 👤 Rodrigo Araújo Campos
+
+**Tipo da chave:** Chave Aleatória
+
+<br>
+
+> 💡 Copie a chave acima e utilize a opção de pagamento por
+> **PIX → Chave Aleatória** no aplicativo do seu banco.
+
+</div>
+
+---
+
+<div align="center">
+
+### 🚛 Sua contribuição ajuda em:
+
+| 🔥 Atualizações | 🔧 Melhorias | 🐛 Correções | 🚛 Novos Mods |
+|:---:|:---:|:---:|:---:|
+| Novas versões | Novas funções | Correção de bugs | Novos projetos |
+
+<br>
+
+### 💜 Pequenas contribuições, grandes avanços!
+
+**Obrigado por apoiar meu trabalho e o desenvolvimento dos projetos. ❤️**
+
+</div>
+
+---
+
+> ## ⚠️ A DOAÇÃO É TOTALMENTE OPCIONAL
+>
+> O **Super Aquecimento dos Freios** continuará disponível gratuitamente.
+>
+> A contribuição via PIX **não é necessária para baixar ou utilizar o MOD**
+> e não representa a compra do projeto.
+>
+> A doação é apenas uma forma voluntária de apoiar o desenvolvimento de
+> novas versões e futuros projetos.
 
 ---
 
@@ -178,7 +266,8 @@ O MOD possui versões preparadas para diferentes formas de controle.
 
 > ### ⚠️ IMPORTANTE
 >
-> Recomendo realizar o download do MOD somente através do link oficial disponibilizado neste repositório.
+> Recomendo realizar o download do MOD somente através do link oficial
+> disponibilizado neste repositório.
 >
 > Dessa forma você terá acesso às versões e atualizações oficiais do projeto.
 
@@ -213,7 +302,7 @@ O MOD possui versões preparadas para diferentes formas de controle.
 
 # 🧪 Processo de Desenvolvimento
 
-Cada projeto passa por diferentes etapas antes de ser disponibilizado para os jogadores.
+Cada projeto passa por diferentes etapas antes de ser disponibilizado.
 
 ```text
                   💡 IDEIA
@@ -253,7 +342,7 @@ Cada projeto passa por diferentes etapas antes de ser disponibilizado para os jo
 
 # 🔄 Atualizações
 
-O **Super Aquecimento dos Freios** continuará recebendo novas atualizações.
+O **Super Aquecimento dos Freios** continuará recebendo atualizações.
 
 Entre as melhorias planejadas estão:
 
@@ -273,9 +362,11 @@ As novas versões serão disponibilizadas através da **pasta oficial do projeto
 
 # 🚧 Próximos Projetos
 
-Este repositório não será dedicado somente ao **Super Aquecimento dos Freios**.
+Este repositório não será dedicado somente ao
+**Super Aquecimento dos Freios**.
 
-Pretendo desenvolver e disponibilizar futuramente novos Mods e sistemas para o **Euro Truck Simulator 2**.
+Pretendo desenvolver e disponibilizar futuramente novos Mods e sistemas
+para o **Euro Truck Simulator 2**.
 
 <div align="center">
 
@@ -299,11 +390,14 @@ Pretendo desenvolver e disponibilizar futuramente novos Mods e sistemas para o *
 
 # ⚠️ Aviso
 
-Os projetos apresentados neste repositório são desenvolvidos por **Rodrigo Araújo Campos**, utilizando **Inteligência Artificial como ferramenta de auxílio no desenvolvimento**.
+Os projetos apresentados neste repositório são desenvolvidos por
+**Rodrigo Araújo Campos**, utilizando **Inteligência Artificial como
+ferramenta de auxílio no desenvolvimento**.
 
 Os Mods podem estar em desenvolvimento ou em fase de testes.
 
-Sempre verifique a **versão**, os **requisitos** e as **instruções de instalação** antes de utilizar.
+Sempre verifique a **versão**, os **requisitos** e as **instruções de
+instalação** antes de utilizar.
 
 ---
 
@@ -321,7 +415,7 @@ Acompanhe atualizações dos Mods, testes, novidades e futuros projetos.
 
 <br><br>
 
-### 🐙 GitHub
+## 🐙 GitHub
 
 [![GitHub](https://img.shields.io/badge/GitHub-RodrigoAraujo34-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RodrigoAraujo34)
 
@@ -331,9 +425,13 @@ Acompanhe atualizações dos Mods, testes, novidades e futuros projetos.
 
 # ⭐ Apoie os Projetos
 
-Se você gostou dos meus Mods e quer apoiar o desenvolvimento de novos projetos, considere deixar uma **⭐ Star** no repositório.
+Se você gostou dos meus Mods, considere deixar uma **⭐ Star** no repositório.
 
-Isso ajuda o projeto a alcançar mais jogadores da comunidade do **Euro Truck Simulator 2** e incentiva o desenvolvimento de novas mecânicas.
+Isso ajuda o projeto a alcançar mais jogadores da comunidade do
+**Euro Truck Simulator 2** e incentiva o desenvolvimento de novas mecânicas.
+
+Você também pode contribuir voluntariamente através do **PIX** disponível
+na seção de apoio deste README.
 
 ---
 
@@ -363,6 +461,10 @@ Isso ajuda o projeto a alcançar mais jogadores da comunidade do **Euro Truck Si
 
 ![Visitantes](https://komarev.com/ghpvc/?username=RodrigoAraujo34&label=VISITANTES&color=blueviolet&style=flat-square)
 
-### ⭐ Obrigado por apoiar meus projetos!
+<br>
+
+### 💜 Gostou do projeto? Considere fazer uma contribuição via PIX.
+
+**⭐ Obrigado por apoiar meus projetos!**
 
 </div>
