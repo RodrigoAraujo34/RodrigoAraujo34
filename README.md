@@ -11,8 +11,8 @@
 
 <br><br>
 
-[![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujoca2-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujoca2/)
-[![Download MOD](https://img.shields.io/badge/Download-Brake_Fade_v0.3-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
+[![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujca2-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujoca2/)
+[![Download MOD](https://img.shields.io/badge/Download-Brake_Fade_v0.4-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 
 <br>
 
@@ -54,7 +54,7 @@ não possui.
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/VERSÃO-0.3-0078D4?style=for-the-badge)
+![Version](https://img.shields.io/badge/VERSÃO-0.4-0078D4?style=for-the-badge)
 ![Status](https://img.shields.io/badge/STATUS-BETA-F5A623?style=for-the-badge)
 ![Game](https://img.shields.io/badge/JOGO-ETS2-F36F21?style=for-the-badge)
 
@@ -79,6 +79,66 @@ até total da capacidade de frenagem**.
 
 ---
 
+# 🆕 Novidades da v0.4
+
+<div align="center">
+
+## 🚀 ATUALIZAÇÃO `v0.4` DISPONÍVEL!
+
+![Nova Versão](https://img.shields.io/badge/NOVA_VERSÃO-v0.4-8A2BE2?style=for-the-badge)
+![Update](https://img.shields.io/badge/UPDATE-DISPONÍVEL-success?style=for-the-badge)
+![Brake Fade](https://img.shields.io/badge/BRAKE_FADE-ETS2-F36F21?style=for-the-badge)
+
+</div>
+
+<br>
+
+A versão **0.4** traz novos recursos para facilitar o uso do MOD,
+melhorar a experiência durante a condução e tornar o sistema mais
+prático para quem utiliza **teclado, controle ou volante**.
+
+### 🌡️ Aviso de Temperatura dos Freios
+
+Agora o MOD exibe uma **notificação durante o jogo** quando os freios
+atingem temperaturas elevadas.
+
+O aviso também mostra a **eficiência atual da frenagem**, permitindo
+acompanhar melhor a condição dos freios antes que a situação se torne crítica.
+
+### ⚙️ Aviso de Calibragem
+
+Foi adicionado um sistema de confirmação na tela quando a
+**calibragem do controle ou volante é carregada corretamente**.
+
+Isso facilita a identificação de que o dispositivo está configurado
+e pronto para utilização.
+
+### 💾 Salvamento das Configurações
+
+As configurações e calibragens agora podem permanecer **salvas**.
+
+Isso evita a necessidade de realizar todo o processo de configuração
+novamente sempre que utilizar o MOD.
+
+### 🔧 Correções e Estabilidade
+
+A versão `v0.4` também inclui:
+
+- 🐛 Correções de bugs
+- ⚙️ Melhorias internas
+- 🛠️ Ajustes no funcionamento do MOD
+- 📈 Melhorias de estabilidade
+
+### 🎮🛞 Compatibilidade Mantida
+
+A nova versão continua oferecendo suporte para:
+
+- ⌨️ **Teclado**
+- 🎮 **Controle**
+- 🛞 **Volante e Pedais**
+
+---
+
 # ⚙️ Principais Recursos
 
 ✅ Simulação dinâmica da temperatura dos freios  
@@ -88,11 +148,15 @@ até total da capacidade de frenagem**.
 ✅ Perda total dos freios em temperaturas extremas  
 ✅ Peso do caminhão e da carga influencia no aquecimento  
 ✅ Cargas extremamente pesadas aumentam ainda mais a temperatura  
+✅ 🌡️ Avisos de temperatura durante o jogo  
+✅ 📊 Exibição da eficiência atual dos freios  
+✅ ⚙️ Confirmação de calibragem  
+✅ 💾 Salvamento das configurações e calibragens  
+✅ 🔧 Correções e melhorias de estabilidade  
 ✅ Sistema desenvolvido através de Plugin/DLL  
 ✅ Compatibilidade com teclado  
 ✅ Compatibilidade com controle  
-✅ Compatibilidade com volante  
-✅ Compatibilidade com pedais  
+✅ Compatibilidade com volante e pedais  
 
 ---
 
@@ -142,14 +206,12 @@ Isso torna viagens com cargas pesadas muito mais desafiadoras.
 
 # 🎮 Compatibilidade
 
-O MOD possui versões preparadas para diferentes formas de controle.
-
-| Dispositivo | Compatibilidade |
-|:---|:---:|
-| ⌨️ Teclado | ✅ Compatível |
-| 🎮 Controle | ✅ Compatível |
-| 🏁 Volante | ✅ Compatível |
-| 🦶 Pedais | ✅ Compatível |
+| Dispositivo | Compatibilidade | v0.4 |
+|:---|:---:|:---:|
+| ⌨️ Teclado | ✅ Compatível | ✅ |
+| 🎮 Controle | ✅ Compatível | ✅ |
+| 🛞 Volante | ✅ Compatível | ✅ |
+| 🦶 Pedais | ✅ Compatível | ✅ |
 
 ---
 
@@ -159,26 +221,24 @@ O MOD possui versões preparadas para diferentes formas de controle.
 
 ## 🔥 Super Aquecimento dos Freios
 
-### Versão Atual — `v0.3`
+### Versão Atual — `v0.4`
 
-![Version](https://img.shields.io/badge/VERSÃO-0.3-0078D4?style=for-the-badge)
+![Version](https://img.shields.io/badge/VERSÃO-0.4-0078D4?style=for-the-badge)
 ![Beta](https://img.shields.io/badge/STATUS-BETA-F5A623?style=for-the-badge)
 ![Windows](https://img.shields.io/badge/WINDOWS-COMPATÍVEL-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 
 <br><br>
 
-### 👇 BAIXE O MOD AQUI 👇
+### 👇 BAIXE A VERSÃO 0.4 👇
 
-[![BAIXAR MOD](https://img.shields.io/badge/📥_BAIXAR_SUPER_AQUECIMENTO_DOS_FREIOS-GOOGLE_DRIVE-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
+[![BAIXAR MOD](https://img.shields.io/badge/📥_BAIXAR_BRAKE_FADE_v0.4-GOOGLE_DRIVE-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 
-<br>
+<br><br>
 
 📁 **Pasta Oficial do Projeto**
 
-<br>
-
-> O link acima será utilizado para disponibilizar as versões
-> oficiais do projeto.
+> A pasta oficial será utilizada para disponibilizar novas versões,
+> atualizações e arquivos do projeto.
 
 </div>
 
@@ -188,12 +248,12 @@ O MOD possui versões preparadas para diferentes formas de controle.
 
 <div align="center">
 
-## 📺 Aprenda a instalar e configurar o MOD
+## 📺 Instalação e Configuração
 
-Está com dúvida para instalar ou configurar o **Super Aquecimento dos Freios**?
+Está com dúvidas para instalar ou configurar o
+**Super Aquecimento dos Freios**?
 
-Preparei tutoriais em vídeo mostrando o processo para facilitar a instalação
-e configuração do MOD no **Euro Truck Simulator 2**.
+Confira os tutoriais do MOD no YouTube.
 
 <br>
 
@@ -215,7 +275,7 @@ e configuração do MOD no **Euro Truck Simulator 2**.
 
 <br>
 
-> 💡 **Recomendação:** assista aos tutoriais antes da instalação,
+> 💡 Recomendo assistir aos tutoriais antes da instalação,
 > principalmente se estiver utilizando o MOD pela primeira vez.
 
 </div>
@@ -296,18 +356,48 @@ c2ad1129-8267-4e80-a0b6-2e0ddb93526c
 
 # 📦 Versões Disponíveis
 
-| Versão | Dispositivo | Status |
-|:---:|:---:|:---:|
-| `v0.3` | ⌨️ Teclado | 🟢 Disponível |
-| `v0.3` | 🎮 Controle | 🟢 Disponível |
-| `v0.3` | 🏁 Volante + Pedais | 🟢 Disponível |
+| Versão | Situação | Status |
+|:---:|:---|:---:|
+| `v0.4` | 🚀 Versão atual | 🟢 Disponível |
+| `v0.3` | 📦 Versão anterior | ⚪ Anterior |
 
-> ### ⚠️ IMPORTANTE
->
-> Recomendo realizar o download do MOD somente através do link oficial
-> disponibilizado neste repositório.
->
-> Dessa forma você terá acesso às versões e atualizações oficiais do projeto.
+### Versão `v0.4`
+
+| Dispositivo | Status |
+|:---|:---:|
+| ⌨️ Teclado | 🟢 Disponível |
+| 🎮 Controle | 🟢 Disponível |
+| 🛞 Volante + Pedais | 🟢 Disponível |
+
+---
+
+# 📜 Histórico de Atualizações
+
+## 🚀 v0.4 — Atual
+
+**Novidades:**
+
+- 🌡️ Aviso de temperatura dos freios
+- 📊 Exibição da eficiência atual da frenagem
+- ⚙️ Aviso de calibragem
+- 💾 Salvamento das configurações e calibragens
+- 🔧 Correções de bugs
+- 📈 Melhorias de estabilidade
+- 🎮 Suporte para controle
+- 🛞 Suporte para volante
+- ⌨️ Suporte para teclado
+
+---
+
+## 📦 v0.3
+
+A versão `v0.3` expandiu a compatibilidade do projeto,
+incluindo suporte para diferentes dispositivos de controle.
+
+- ⌨️ Teclado
+- 🎮 Controle
+- 🛞 Volante
+- 🦶 Pedais
 
 ---
 
@@ -340,8 +430,6 @@ c2ad1129-8267-4e80-a0b6-2e0ddb93526c
 
 # 🧪 Processo de Desenvolvimento
 
-Cada projeto passa por diferentes etapas antes de ser disponibilizado.
-
 ```text
                   💡 IDEIA
                      │
@@ -373,28 +461,26 @@ Cada projeto passa por diferentes etapas antes de ser disponibilizado.
 
 | Projeto | Versão | Status |
 |---|:---:|:---:|
-| 🔥 Super Aquecimento dos Freios | `v0.3` | 🟢 Disponível / Beta |
+| 🔥 Super Aquecimento dos Freios | `v0.4` | 🟢 Disponível / Beta |
 | 🚛 Novos Mods para ETS2 | `Em breve` | 🟡 Planejamento |
 
 ---
 
-# 🔄 Atualizações
+# 🔄 Próximas Atualizações
 
 O **Super Aquecimento dos Freios** continuará recebendo atualizações.
 
-Entre as melhorias planejadas estão:
+Entre as futuras melhorias poderão estar:
 
-- 🔧 Correções de bugs
+- 🔧 Novas correções de bugs
 - ⚙️ Melhorias no sistema
-- 🌡️ Ajustes na simulação de temperatura
+- 🌡️ Aprimoramentos na simulação de temperatura
 - 🎮 Melhorias para controles
-- 🏁 Melhorias para volantes e pedais
+- 🛞 Melhorias para volantes e pedais
 - 🚛 Novas mecânicas de realismo
 - 📊 Otimizações
 - 🖥️ Melhorias na configuração do MOD
 - 🔥 Evolução do sistema de Brake Fade
-
-As novas versões serão disponibilizadas através da **pasta oficial do projeto**.
 
 ---
 
@@ -434,8 +520,8 @@ ferramenta de auxílio no desenvolvimento**.
 
 Os Mods podem estar em desenvolvimento ou em fase de testes.
 
-Sempre verifique a **versão**, os **requisitos** e as **instruções de
-instalação** antes de utilizar.
+Sempre verifique a **versão**, os **requisitos** e as
+**instruções de instalação** antes de utilizar.
 
 ---
 
@@ -475,8 +561,8 @@ Se você gostou dos meus Mods, considere deixar uma **⭐ Star** no repositório
 Isso ajuda o projeto a alcançar mais jogadores da comunidade do
 **Euro Truck Simulator 2** e incentiva o desenvolvimento de novas mecânicas.
 
-Você também pode contribuir voluntariamente através do **PIX** disponível
-na seção de apoio deste README.
+Você também pode contribuir voluntariamente através do **PIX**
+disponível na seção de apoio deste README.
 
 ---
 
@@ -501,13 +587,15 @@ na seção de apoio deste README.
 [![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujca2-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujca2)
 [![GitHub](https://img.shields.io/badge/GitHub-RodrigoAraujo34-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RodrigoAraujo34)
 [![YouTube](https://img.shields.io/badge/YouTube-Tutoriais-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=pR7P1BxTyl8)
-[![Download](https://img.shields.io/badge/Download-Brake_Fade_v0.3-4285F4?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
+[![Download](https://img.shields.io/badge/Download-Brake_Fade_v0.4-4285F4?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 
 <br><br>
 
 ![Visitantes](https://komarev.com/ghpvc/?username=RodrigoAraujo34&label=VISITANTES&color=blueviolet&style=flat-square)
 
 <br>
+
+### 🔥 Brake Fade `v0.4` disponível!
 
 ### 💜 Gostou do projeto? Considere fazer uma contribuição via PIX.
 
