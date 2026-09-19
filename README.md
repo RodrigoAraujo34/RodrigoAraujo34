@@ -1,5 +1,8 @@
 <div align="center">
 
+[![Português](https://img.shields.io/badge/Idioma-Português-009C3B?style=for-the-badge)](README.md)
+[![English](https://img.shields.io/badge/Language-English-1E90FF?style=for-the-badge)](README_EN.md)
+
 # 🚛 Rodrigo Araújo ( CesnnaBravo )
 
 ### 🤖 Desenvolvedor de Mods para Euro Truck Simulator 2 — Via IA
@@ -11,8 +14,9 @@
 
 <br><br>
 
-[![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujoca2-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujoca2/)
+[![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujca2-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujca2/)
 [![Download MOD](https://img.shields.io/badge/Download-Brake_Fade_v0.5-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
+[![Buy Me a Coffee](https://img.shields.io/badge/☕_Support-Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/cesnnabravo)
 
 <br>
 
@@ -22,22 +26,13 @@
 
 ---
 
-## 🌎 English Version / International Players
+## 🌎 Escolha seu idioma / Choose your language
 
-> 🇺🇸 **English-speaking players:** Brake Fade v0.5 supports **Euro Truck Simulator 2
-> and American Truck Simulator**. An English quick guide is available below.
->
-> **v0.5 highlights:** brake sounds, a new brake cooling system, chassis damage
-> affecting braking performance, temperature/efficiency warnings, saved calibration,
-> cargo-weight influence, and support for keyboard, controller, steering wheel and pedals.
->
-> **Important setup:** add **ETS2 Brake Fade** under the game's **Input Type**,
-> use **F8** for the 3-step physical brake calibration, and **F9** to assign
-> the Brake Fade virtual brake axis. Set the Brake Axis Mode to **Normal**.
->
-> Keep the DLL and the `sounds` folder together inside `bin/win_x64/plugins`.
+Este arquivo está em **português**. Para visualizar todo o conteúdo em inglês,
+acesse a versão internacional:
 
-[🇧🇷 Português](#-sobre-mim) • [🇺🇸 English Quick Guide](#-english-quick-guide)
+[![LER EM PORTUGUÊS](https://img.shields.io/badge/🇧🇷_LER-EM_PORTUGUÊS-009C3B?style=for-the-badge)](README.md)
+[![READ IN ENGLISH](https://img.shields.io/badge/🇺🇸_READ-IN_ENGLISH-1E90FF?style=for-the-badge)](README_EN.md)
 
 ---
 
@@ -326,14 +321,18 @@ O **Super Aquecimento dos Freios — Brake Fade** é disponibilizado
 **gratuitamente para a comunidade**.
 
 Se você gostou do projeto e quiser contribuir com o desenvolvimento de
-**novas versões, melhorias e novos Mods para Euro Truck Simulator 2**,
-você pode fazer uma contribuição voluntária via **PIX**.
+**novas versões, melhorias e novos Mods para ETS2 e ATS**, pode fazer uma
+contribuição voluntária pelo **Buy Me a Coffee** ou via **PIX**.
 
 <br>
 
 ### 💜 QUALQUER VALOR JÁ AJUDA!
 
-![PIX](https://img.shields.io/badge/DOAÇÃO-PIX-8A2BE2?style=for-the-badge)
+[![Buy Me a Coffee](https://img.shields.io/badge/☕_APOIAR-BUY_ME_A_COFFEE-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/cesnnabravo)
+
+<br><br>
+
+![PIX](https://img.shields.io/badge/BRASIL-PIX-8A2BE2?style=for-the-badge)
 ![Projeto](https://img.shields.io/badge/APOIE-O_PROJETO-6F2DA8?style=for-the-badge)
 ![Gratuito](https://img.shields.io/badge/MOD-CONTINUA_GRATUITO-success?style=for-the-badge)
 
@@ -380,7 +379,7 @@ c2ad1129-8267-4e80-a0b6-2e0ddb93526c
 >
 > O **Super Aquecimento dos Freios** continuará disponível gratuitamente.
 >
-> A contribuição via PIX **não é necessária para baixar ou utilizar o MOD**
+> A contribuição pelo Buy Me a Coffee ou via PIX **não é necessária para baixar ou utilizar o MOD**
 > e não representa a compra do projeto.
 >
 > A doação é apenas uma forma voluntária de apoiar o desenvolvimento de
@@ -452,41 +451,6 @@ incluindo suporte para diferentes dispositivos de controle.
 - 🎮 Controle
 - 🛞 Volante
 - 🦶 Pedais
-
----
-
-# 🇺🇸 English Quick Guide
-
-## Brake Fade v0.5 — Brake Overheating System
-
-Brake Fade adds a dynamic brake-temperature and brake-efficiency simulation to
-**Euro Truck Simulator 2 (ETS2)** and **American Truck Simulator (ATS)**.
-
-### What's new in v0.5
-
-- 🔊 Realistic brake sound effects
-- ❄️ New brake cooling system
-- 🔧 Chassis damage/wear affects braking performance and heat generation
-- ⚖️ Cargo weight influences brake heating
-- 🌡️ On-screen brake temperature and efficiency warnings
-- 💾 Saved calibration/settings
-- 🐛 Bug fixes and stability improvements
-- ⌨️ Keyboard, 🎮 controller, 🛞 steering wheel and pedal support
-
-### Important setup
-
-1. Copy the plugin DLL and the `sounds` folder to `bin/win_x64/plugins`.
-2. Open **Options > Controls**.
-3. Under **Input Type**, add **ETS2 Brake Fade**.
-4. For controller/wheel calibration, press **F8** through the 3 calibration steps.
-5. Select the game's **Brake Axis** field and press **F9** to assign the virtual axis.
-6. Set **Brake Axis Mode** to **Normal**.
-7. Do not leave the physical brake pedal/trigger directly assigned to the original
-   game brake, or it may bypass the Brake Fade efficiency reduction.
-
-At extreme temperatures (**500 °C+**), service-brake efficiency can reach **0%**.
-
-> Keep the `sounds` folder next to the plugin DLL. Do not rename the WAV files.
 
 ---
 
@@ -650,8 +614,8 @@ Se você gostou dos meus Mods, considere deixar uma **⭐ Star** no repositório
 Isso ajuda o projeto a alcançar mais jogadores da comunidade do
 **Euro Truck Simulator 2** e incentiva o desenvolvimento de novas mecânicas.
 
-Você também pode contribuir voluntariamente através do **PIX**
-disponível na seção de apoio deste README.
+Você também pode contribuir voluntariamente pelo **Buy Me a Coffee** ou via
+**PIX**, conforme indicado na seção de apoio deste README.
 
 ---
 
@@ -677,6 +641,7 @@ disponível na seção de apoio deste README.
 [![GitHub](https://img.shields.io/badge/GitHub-RodrigoAraujo34-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RodrigoAraujo34)
 [![YouTube](https://img.shields.io/badge/YouTube-Tutoriais-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=pR7P1BxTyl8)
 [![Download](https://img.shields.io/badge/Download-Brake_Fade_v0.5-4285F4?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
+[![Support](https://img.shields.io/badge/Support-Buy_Me_a_Coffee-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/cesnnabravo)
 
 <br><br>
 
@@ -686,7 +651,7 @@ disponível na seção de apoio deste README.
 
 ### 🔥 Brake Fade `v0.5` disponível para ETS2 e ATS!
 
-### 💜 Gostou do projeto? Considere fazer uma contribuição via PIX.
+### 💜 Gostou do projeto? Considere apoiar pelo Buy Me a Coffee ou via PIX.
 
 ### ⭐ Obrigado por apoiar meus projetos!
 
