@@ -15,7 +15,7 @@
 
 [![Download](https://img.shields.io/badge/Download-Brake_Fade_v0.5-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 [![Buy Me a Coffee](https://img.shields.io/badge/☕_Support-Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/cesnnabravo)
-[![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujca2-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujca2)
+[![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujoca2-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujoca2/)
 
 ![Visitors](https://komarev.com/ghpvc/?username=RodrigoAraujo34&label=PROJECT%20VISITORS&color=blueviolet&style=for-the-badge)
 
