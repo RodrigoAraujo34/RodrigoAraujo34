@@ -13,7 +13,7 @@
 
 <br>
 
-[![Download](https://img.shields.io/badge/Download-Brake_Fade_v0.5-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
+[![Download](https://img.shields.io/badge/Download-Brake_Fade_v0.6-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 [![Buy Me a Coffee](https://img.shields.io/badge/☕_Support-Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/cesnnabravo)
 [![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujoca2-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujoca2/)
 
@@ -58,7 +58,7 @@ My goal is to create modifications that add new mechanics and increase the level
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/VERSION-0.5-0078D4?style=for-the-badge)
+![Version](https://img.shields.io/badge/VERSION-0.6-0078D4?style=for-the-badge)
 ![Status](https://img.shields.io/badge/STATUS-BETA-F5A623?style=for-the-badge)
 ![Games](https://img.shields.io/badge/GAMES-ETS2_%7C_ATS-F36F21?style=for-the-badge)
 
@@ -70,19 +70,34 @@ Long braking, steep descents, high speed, heavy cargo, and chassis wear can sign
 
 ---
 
-# 🆕 What's New in v0.5
+# 🆕 What's New in v0.6
 
-- 🔊 Brake sound effects
-- ❄️ Redesigned and more realistic brake cooling
-- 🔧 Chassis damage and wear affect brake performance and heat generation
-- 🌡️ On-screen temperature, efficiency, overheating, and recovery warnings
-- ⚖️ Cargo weight and vehicle speed influence brake temperature
-- 💾 Saved settings and calibration
-- 🐛 Bug fixes and stability improvements
-- ⌨️ Keyboard support
-- 🎮 Controller support
-- 🛞 Steering wheel and pedal support
-- 🚛 ETS2 and ATS compatibility
+> 🔊 **MAJOR AUDIO UPDATE — BRAKE FADE v0.6 (BETA)**
+>
+> **IMPORTANT CONTROL CHANGE: F8 → F7.** On controller and steering-wheel versions, use **F7** for brake calibration. **F9** remains the virtual brake-axis assignment key.
+
+### 🔊 New Dynamic Brake Audio Engine
+
+- Real brake recordings combined with code-generated friction effects.
+- Smooth volume fades and crossfades instead of abrupt audio cuts.
+- Brake sounds respond to temperature, braking input, and vehicle movement.
+- Gradual transitions between warm-brake and overheated-brake sounds.
+- The existing `sounds` folder and original WAV filenames remain in use.
+
+### 🚛 Realistic Brake Simulation
+
+- Progressive brake heating and cooling, influenced by braking and vehicle speed.
+- Heavy loads increase heat buildup; chassis wear affects braking performance.
+- Braking efficiency decreases as temperature rises and can reach **0% at 500°C or above**.
+- On-screen warnings for overheating, efficiency loss, recovery, and calibration.
+
+### 🎮 Controls and Compatibility
+
+- **F7:** three-step brake calibration (**replaces F8**, controller/wheel only).
+- **F9:** assign the Brake Fade virtual brake axis (controller/wheel).
+- **S:** standard brake key for the separate keyboard edition.
+- Separate keyboard and controller/wheel builds for **ETS2 and ATS**.
+- Beta release: ongoing testing and bug fixes based on player reports.
 
 ---
 
@@ -91,7 +106,7 @@ Long braking, steep descents, high speed, heavy cargo, and chassis wear can sign
 ✅ Dynamic brake-temperature simulation  
 ✅ Progressive heating during braking  
 ✅ Speed-based brake cooling  
-✅ Brake sound effects  
+✅ Dynamic XAudio2 audio with real recordings, procedural effects, and smooth crossfades  
 ✅ Gradual loss of braking efficiency  
 ✅ Total service-brake loss at extreme temperatures  
 ✅ Cargo and truck weight influence heating  
@@ -133,7 +148,7 @@ The system considers the total weight of the truck and cargo. Heavier loads requ
 
 # 🎮 Compatibility
 
-| Device / Game | v0.5 status |
+| Device / Game | v0.6 status |
 |:---|:---:|
 | ⌨️ Keyboard | ✅ Supported |
 | 🎮 Controller | ✅ Supported |
@@ -148,11 +163,11 @@ The system considers the total weight of the truck and cargo. Heavier loads requ
 
 <div align="center">
 
-## Brake Fade `v0.5`
+## Brake Fade `v0.6`
 
 [![DOWNLOAD MOD](https://img.shields.io/badge/📥_DOWNLOAD_BRAKE_FADE_v0.5-GOOGLE_DRIVE-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 
-The official folder contains the current release, future updates, and project files.
+The official folder is used for current releases, future updates, and project files. **Please verify that the v0.6 package for your device is present before downloading.**
 
 </div>
 
@@ -160,16 +175,63 @@ The official folder contains the current release, future updates, and project fi
 
 # 🛠️ Installation and Setup
 
-1. Download the current version from the official folder.
-2. Copy the plugin DLL and the complete `sounds` folder to `bin/win_x64/plugins`.
-3. Open the game and go to **Options > Controls**.
-4. Under **Input Type**, add **ETS2 Brake Fade**.
-5. For controller or wheel calibration, press **F8** and complete all three calibration steps.
-6. Select the game's **Brake Axis** field and press **F9** to assign the virtual Brake Fade axis.
-7. Set **Brake Axis Mode** to **Normal**.
-8. Do not leave your physical brake pedal or trigger assigned directly to the original game brake axis, as this can bypass the Brake Fade efficiency reduction.
+### 1. Install the correct edition
 
-> Keep the `sounds` folder next to the plugin DLL and do not rename the WAV files.
+1. Download the **v0.6** package for your input device: **keyboard** or **controller / steering wheel**.
+2. Close ETS2/ATS before copying files.
+3. Open the game's `bin/win_x64/plugins` directory. Create `plugins` if it does not exist.
+4. Copy the DLL included with your edition into `plugins`, together with its complete `sounds` folder.
+5. **Remove older Brake Fade DLLs from the same plugins directory** to avoid two versions loading at once. Do not delete unrelated plugins.
+6. Keep the WAV filenames unchanged. The folder should look like this:
+
+```text
+bin/
+└── win_x64/
+    └── plugins/
+        ├── <Brake Fade DLL supplied with your download>
+        └── sounds/
+            ├── audio carreta temperatura baixa.wav
+            └── audio_carreta temperatura alta.wav
+```
+
+### 2. Controller / steering wheel calibration — **F7 (not F8)**
+
+1. Start ETS2/ATS and connect your controller or wheel.
+2. **Release** the physical brake trigger/pedal completely, then press **F7**.
+3. **Fully press and hold** the brake trigger/pedal, then press **F7** again.
+4. **Release** the brake completely, then press **F7** once more to finish.
+5. Open **Options → Controls**. Choose the Brake Fade virtual input device if it is listed by the game.
+6. Select **Brake Axis** and press **F9** to assign the virtual axis.
+7. Set **Brake Axis Mode** to **Normal**.
+8. Remove any direct assignment of the physical brake pedal/trigger to the game's original Brake Axis, since it can bypass the mod's efficiency reduction.
+
+> ⚠️ **Updated shortcut:** **F8 is no longer the calibration key. Use F7.** F9 has not changed. The keyboard edition does not need F7 calibration.
+
+### 3. Keyboard edition
+
+Use **S** for braking, as in the previous keyboard version. Install the keyboard DLL rather than the controller/wheel DLL. Follow any input-binding instructions included with that edition; do not install both editions together.
+
+---
+
+# 🧰 Troubleshooting / Known Issues
+
+| Problem | What to check / How to fix |
+|:---|:---|
+| **The mod does not load** | Confirm you are using the **64-bit game**, the correct game's `bin/win_x64/plugins` directory, and the correct DLL edition. Restart the game and inspect `game.log.txt` for plugin-loading errors. |
+| **No brake sounds** | Make sure the `sounds` folder is beside the DLL and both WAV files have their original names. Check Windows audio output and the game's volume. |
+| **Brake audio sounds too loud or unusual** | Check whether duplicate Brake Fade DLLs are installed. Report the brake temperature, vehicle speed, and whether the pedal was pressed. |
+| **F7 does not calibrate** | Use the controller/wheel edition, keep the game focused, and perform all three steps: released → fully pressed → released. Make sure no other software intercepts F7. |
+| **F9 does not bind the axis** | Click the in-game **Brake Axis** assignment field first, then press F9. Check that the Brake Fade virtual device is available and **Brake Axis Mode** is **Normal**. |
+| **Truck brakes by itself / inverted brake axis** | Check for duplicate brake bindings, repeat F7 calibration, and verify **Brake Axis Mode: Normal**. Remove direct physical-axis assignments that bypass the virtual axis. |
+| **Braking strength does not change** | Check whether the original physical brake is still assigned directly in the game. Use the mod's virtual axis on the controller/wheel edition. |
+| **Mod stops working after an update** | Verify that the downloaded DLL matches your current game version. Remove older Brake Fade DLLs and restart ETS2/ATS. |
+| **Game crashes or freezes** | Temporarily remove the Brake Fade DLL to compare behavior, then provide the game log and your game/mod versions. Do not assume the plugin is the cause without testing. |
+
+### 🐛 Report a Bug
+
+Please include: **ETS2 or ATS**, game version, **Brake Fade v0.6 edition** (keyboard/controller/wheel), Windows version, steps to reproduce, what you expected, what happened, and relevant excerpts from `game.log.txt` (usually in your ETS2/ATS user-data folder). If you use a custom `-homedir`, check that location instead. Remove private information before sharing logs.
+
+> **Beta notice:** Not every configuration has been tested. These are troubleshooting recommendations, not a claim that every issue listed is a confirmed bug.
 
 ---
 
@@ -207,7 +269,8 @@ If you enjoy the project, you can voluntarily support the development of new rel
 
 | Version | Release status |
 |:---:|:---|
-| `v0.5` | 🟢 Current version / Available |
+| `v0.6` | 🟡 Current beta / Available |
+| `v0.5` | ⚪ Previous version |
 | `v0.4` | ⚪ Previous version |
 | `v0.3` | ⚪ Previous version |
 
@@ -215,7 +278,17 @@ If you enjoy the project, you can voluntarily support the development of new rel
 
 # 📜 Changelog
 
-## 🚀 v0.5 — Current
+## 🚀 v0.6 — Current Beta
+
+- New XAudio2 dynamic brake audio with real recordings and procedural effects
+- Smooth sound transitions and fades
+- Calibration shortcut changed from **F8 to F7** (controller/wheel)
+- **F9** virtual-axis binding retained
+- Separate keyboard and controller/wheel editions
+- Continued brake heating, cooling, cargo weight, chassis wear, and efficiency warnings
+- Beta testing and stability review
+
+## 📦 v0.5
 
 - Brake sound effects
 - New cooling system
@@ -266,7 +339,7 @@ If you enjoy the project, you can voluntarily support the development of new rel
 
 | Project | Version | Status |
 |:---|:---:|:---:|
-| 🔥 Brake Fade for ETS2 / ATS | `v0.5` | 🟢 Available / Beta |
+| 🔥 Brake Fade for ETS2 / ATS | `v0.6` | 🟡 Available / Beta |
 | 🚛 New truck-simulator mods | Coming soon | 🟡 Planning |
 
 Future versions may include additional bug fixes, simulation improvements, controller and wheel enhancements, new realism mechanics, optimization, and easier configuration.
