@@ -219,7 +219,7 @@ Isso torna viagens com cargas pesadas muito mais desafiadoras.
 
 <br><br>
 
-### 👇 BAIXE A VERSÃO 0.5 👇
+### 👇 BAIXE A VERSÃO 0.6 👇
 
 [![BAIXAR MOD](https://img.shields.io/badge/📥_BAIXAR_BRAKE_FADE_v0.6-GOOGLE_DRIVE-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 
@@ -319,7 +319,7 @@ Confira os tutoriais do MOD no YouTube.
 
 ### 🎬 Tutorial #2
 
-[![Assistir Tutorial](https://img.shields.io/badge/▶_ASSISTIR_TUTORIAL_2-YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=BuuNf36USyU)
+[![Assistir Tutorial](https://img.shields.io/badge/▶_ASSISTIR_TUTORIAL_2-YOUTUBE-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=25W1FI4E_3o&t=205s&pp=0gcJCTcMAYcqIYzv)
 
 <br><br>
 
