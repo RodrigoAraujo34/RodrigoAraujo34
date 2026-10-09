@@ -15,7 +15,7 @@
 <br><br>
 
 [![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujoca2-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujoca2/)
-[![Download MOD](https://img.shields.io/badge/Download-Brake_Fade_v0.5-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
+[![Download MOD](https://img.shields.io/badge/Download-Brake_Fade_v0.6-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 [![Buy Me a Coffee](https://img.shields.io/badge/☕_Support-Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/cesnnabravo)
 
 <br>
@@ -68,7 +68,7 @@ não possui.
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/VERSÃO-0.5-0078D4?style=for-the-badge)
+![Version](https://img.shields.io/badge/VERSÃO-0.6-0078D4?style=for-the-badge)
 ![Status](https://img.shields.io/badge/STATUS-BETA-F5A623?style=for-the-badge)
 ![Game](https://img.shields.io/badge/JOGOS-ETS2_%7C_ATS-F36F21?style=for-the-badge)
 
@@ -93,72 +93,33 @@ até total da capacidade de frenagem**.
 
 ---
 
-# 🆕 Novidades da v0.5
+# 🆕 Novidades da v0.6 — Áudio Dinâmico e Melhorias
 
 <div align="center">
 
-## 🚀 ATUALIZAÇÃO `v0.5` DISPONÍVEL!
+## 🚀 ATUALIZAÇÃO `v0.6` — BETA
 
-![Nova Versão](https://img.shields.io/badge/NOVA_VERSÃO-v0.5-8A2BE2?style=for-the-badge)
-![Update](https://img.shields.io/badge/UPDATE-DISPONÍVEL-success?style=for-the-badge)
-![ETS2](https://img.shields.io/badge/ETS2-COMPATÍVEL-F36F21?style=for-the-badge)
-![ATS](https://img.shields.io/badge/ATS-COMPATÍVEL-1E90FF?style=for-the-badge)
+![Versão](https://img.shields.io/badge/NOVA_VERSÃO-v0.6-8A2BE2?style=for-the-badge)
+![Status](https://img.shields.io/badge/STATUS-BETA-F5A623?style=for-the-badge)
+![Jogos](https://img.shields.io/badge/ETS2_%7C_ATS-SUPORTE-F36F21?style=for-the-badge)
 
 </div>
 
-<br>
+### 🔊 Novo sistema de áudio dinâmico
 
-A versão **0.5** amplia o realismo do Brake Fade e traz melhorias importantes
-para **Euro Truck Simulator 2 (ETS2)** e **American Truck Simulator (ATS)**.
+- Mistura de **gravações reais de freios** com efeitos de atrito gerados pelo código.
+- Transições graduais (*crossfade*) entre os sons conforme a temperatura muda.
+- Entrada e saída suaves (*fade-in/fade-out*) para evitar cortes secos.
+- Intensidade adaptada à **temperatura, velocidade e pressão do pedal**.
+- Mantida a pasta `sounds` com os dois arquivos WAV da versão anterior.
 
-### 🔊 Som dos Freios
+### ⌨️ ATENÇÃO: calibração mudou de F8 para F7!
 
-O MOD agora possui **efeitos sonoros dos freios**, que mudam conforme
-as condições de uso e a temperatura do sistema.
+> **IMPORTANTE PARA QUEM ATUALIZOU DA v0.5:** a tecla de calibração do freio para **controle e volante/pedais** foi alterada de **F8 para F7**. A tecla **F8 não deve mais ser usada** para essa função na v0.6. **F9 continua sendo a tecla para configurar/vincular o eixo virtual.**
 
-### ❄️ Novo Sistema de Resfriamento
+### 🛠️ Continuidade dos sistemas existentes
 
-O resfriamento dos freios foi reformulado para ficar mais realista.
-A velocidade do caminhão e a temperatura atual influenciam a dissipação
-de calor, fazendo com que os freios levem tempo para se recuperar após
-frenagens intensas ou longas descidas.
-
-### 🔧 Dano do Caminhão Afeta os Freios
-
-O **dano/desgaste do chassi** agora influencia diretamente o sistema.
-
-Quanto maior o dano:
-- menor pode ser a eficiência final da frenagem;
-- maior pode ser o aquecimento dos freios.
-
-### 🌡️ Temperatura e Brake Fade
-
-O sistema continua reduzindo progressivamente a eficiência conforme os
-freios aquecem. Em **500 °C ou mais**, a eficiência do freio de serviço
-pode chegar a **0%**.
-
-### ⚖️ Peso e Velocidade
-
-O peso da carga influencia o aquecimento e a velocidade do caminhão
-também participa do cálculo de aquecimento e resfriamento.
-
-### 📢 Avisos na Tela
-
-O MOD exibe avisos de temperatura, eficiência, superaquecimento,
-recuperação dos freios e calibração.
-
-### 💾 Configurações e Calibração
-
-As configurações e calibrações continuam sendo salvas para facilitar
-o uso do MOD.
-
-### 🎮🛞 Compatibilidade
-
-- ⌨️ Teclado
-- 🎮 Controle
-- 🛞 Volante e pedais
-- 🚛 Euro Truck Simulator 2
-- 🇺🇸 American Truck Simulator
+Permanecem a simulação de temperatura, perda progressiva de eficiência, resfriamento, influência do peso da carga e do desgaste do chassi, alertas na tela e calibração salva. A atualização está em **beta**: problemas ainda podem ser identificados em diferentes controles, volantes e configurações do jogo.
 
 ---
 
@@ -167,7 +128,7 @@ o uso do MOD.
 ✅ Simulação dinâmica da temperatura dos freios  
 ✅ Aquecimento progressivo durante frenagens  
 ✅ Novo sistema de resfriamento dos freios  
-✅ 🔊 Efeitos sonoros dos freios  
+✅ 🔊 Áudio dinâmico com transições suaves e efeitos procedurais  
 
 ✅ Perda gradual da eficiência de frenagem  
 ✅ Perda total dos freios em temperaturas extremas  
@@ -250,9 +211,9 @@ Isso torna viagens com cargas pesadas muito mais desafiadoras.
 
 ## 🔥 Super Aquecimento dos Freios
 
-### Versão Atual — `v0.5`
+### Versão Atual — `v0.6`
 
-![Version](https://img.shields.io/badge/VERSÃO-0.5-0078D4?style=for-the-badge)
+![Version](https://img.shields.io/badge/VERSÃO-0.6-0078D4?style=for-the-badge)
 ![Beta](https://img.shields.io/badge/STATUS-BETA-F5A623?style=for-the-badge)
 ![Windows](https://img.shields.io/badge/WINDOWS-COMPATÍVEL-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 
@@ -260,16 +221,80 @@ Isso torna viagens com cargas pesadas muito mais desafiadoras.
 
 ### 👇 BAIXE A VERSÃO 0.5 👇
 
-[![BAIXAR MOD](https://img.shields.io/badge/📥_BAIXAR_BRAKE_FADE_v0.5-GOOGLE_DRIVE-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
+[![BAIXAR MOD](https://img.shields.io/badge/📥_BAIXAR_BRAKE_FADE_v0.6-GOOGLE_DRIVE-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 
 <br><br>
 
 📁 **Pasta Oficial do Projeto**
 
-> A pasta oficial será utilizada para disponibilizar novas versões,
+> **Confirme se a v0.6 já foi publicada nessa pasta antes de baixar.** A pasta oficial será utilizada para disponibilizar novas versões,
 > atualizações e arquivos do projeto.
 
 </div>
+
+---
+
+# 📦 Instalação da v0.6
+
+1. Feche o ETS2/ATS antes de substituir arquivos.
+2. Abra a pasta do jogo e acesse `bin\win_x64\plugins`.
+3. **Remova a DLL antiga do Brake Fade** para evitar carregar duas versões ao mesmo tempo. Não deixe cópias antigas com nomes diferentes nessa pasta.
+4. Copie a **DLL compilada da v0.6** para `plugins` e mantenha a pasta `sounds` ao lado dela.
+5. Inicie o jogo e confira o funcionamento da calibração, dos sons e dos avisos.
+
+**Estrutura esperada (exemplo):**
+
+```text
+Euro Truck Simulator 2/
+└── bin/
+    └── win_x64/
+        └── plugins/
+            ├── ets2_brake_fade_wheel.dll  (nome pode variar conforme o pacote)
+            └── sounds/
+                ├── audio carreta temperatura baixa.wav
+                └── audio_carreta temperatura alta.wav
+```
+
+> O nome da DLL deve corresponder ao arquivo compilado distribuído no pacote. **Não instale duas DLLs do Brake Fade ao mesmo tempo.** Para ATS, utilize a pasta equivalente em `American Truck Simulator`.
+
+## 🎮 Calibração do freio — controle e volante
+
+**Na v0.6: F7 substitui F8.**
+
+1. **Solte completamente** o gatilho/pedal do freio e pressione **F7**.
+2. **Pressione o freio até 100%** e pressione **F7** novamente.
+3. **Solte completamente** o freio e pressione **F7** pela terceira vez.
+4. Confira a confirmação de calibração. Se necessário, repita o processo.
+
+**F9:** utilizado na configuração/vinculação do **eixo virtual do Brake Fade** nos controles do jogo. Configure o eixo do freio conforme as instruções do mod; quando disponível, utilize o modo **Normal**, e não invertido. A calibração F7 é para controle/volante; não é uma etapa obrigatória do modo teclado.
+
+## 🛠️ Problemas comuns e como resolver
+
+| Problema | Possível causa | O que fazer |
+|:---|:---|:---|
+| O mod não carrega | DLL na pasta errada, versão antiga ou dependência ausente | Verifique `bin\win_x64\plugins`, remova DLLs duplicadas, confirme que o jogo é 64 bits e examine `game.log.txt`. |
+| O freio fica acionado sozinho | Eixo invertido, vinculação duplicada ou calibração incorreta | Refaça a calibração com **F7**, confira o modo **Normal** do eixo virtual e remova conflitos de atribuição nos controles. |
+| O pedal/gatilho funciona invertido | Intervalo do eixo identificado incorretamente | Repita as três etapas do **F7**, pressionando o freio totalmente na segunda etapa. |
+| F7 não responde | Jogo sem foco, tecla interceptada ou dispositivo não detectado | Clique na janela do jogo, teste a tecla e verifique se o controle/volante está conectado. |
+| F9 não vincula o freio | Eixo virtual não selecionado corretamente | Abra as configurações de controle do ETS2/ATS e refaça a atribuição do eixo virtual com **F9**. |
+| Não há som dos freios | WAVs ausentes, nome incorreto ou pasta errada | Verifique a pasta `sounds` e os nomes exatos dos arquivos; teste novamente em movimento, freando. |
+| Som fica alto, baixo ou repetitivo | Volume e condições de reprodução | Confira o mixer de volume do Windows e do jogo; informe modelo do dispositivo e condições em que ocorreu. |
+| Alertas não aparecem | Overlay não encontrou a janela correta ou há incompatibilidade | Teste em modo janela sem bordas e verifique o log; informe se utiliza overlays de terceiros. |
+| Jogo trava ou fecha ao iniciar | Incompatibilidade ou conflito com outro plugin | Retire temporariamente a DLL do Brake Fade para comparar; depois teste sem outros plugins e consulte o `game.log.txt`. |
+| Temperatura parece incorreta | Condições de uso, carga ou conflito com outra modificação | Anote velocidade, peso, temperatura e tempo de frenagem e envie os dados para investigação. |
+
+### 📄 Como relatar um bug
+
+Ao informar um problema, envie, se possível:
+
+- Jogo (**ETS2 ou ATS**) e versão do jogo;
+- Versão do Brake Fade (**v0.6**);
+- Dispositivo (**teclado, controle ou volante**) e modelo;
+- Descrição do problema e passos para reproduzi-lo;
+- Captura de tela/vídeo, se disponível;
+- Arquivo `game.log.txt`, geralmente localizado na pasta de documentos do ETS2/ATS (ou na pasta definida pelo parâmetro `-homedir`).
+
+> **Privacidade:** antes de compartilhar logs ou capturas publicamente, confira se contêm caminhos pessoais ou outras informações que você não deseja divulgar.
 
 ---
 
@@ -391,11 +416,12 @@ c2ad1129-8267-4e80-a0b6-2e0ddb93526c
 
 | Versão | Situação | Status |
 |:---:|:---|:---:|
-| `v0.5` | 🚀 Versão atual | 🟢 Disponível |
+| `v0.6` | 🚀 Versão atual | 🟢 Disponível |
+| `v0.5` | 📦 Versão anterior | ⚪ Anterior |
 | `v0.4` | 📦 Versão anterior | ⚪ Anterior |
 | `v0.3` | 📦 Versão anterior | ⚪ Anterior |
 
-### Versão `v0.5`
+### Versão `v0.6` (beta)
 
 | Dispositivo | Status |
 |:---|:---:|
@@ -403,13 +429,20 @@ c2ad1129-8267-4e80-a0b6-2e0ddb93526c
 | 🎮 Controle | 🟢 Disponível |
 | 🛞 Volante + Pedais | 🟢 Disponível |
 
+> Na v0.6, a calibração para controle e volante é feita pela tecla **F7**, não mais pela F8.
+
 ---
 
 # 📜 Histórico de Atualizações
 
-## 🚀 v0.5 — Atual
+## 🚀 v0.6 — Atual (beta)
 
 **Novidades:**
+
+- 🔊 Novo motor de áudio dinâmico, mistura de sons reais e efeitos procedurais
+- 🎚️ Transições suaves de volume e de intensidade sonora
+- ⌨️ **F8 → F7** para calibração de controle e volante; **F9 permanece** para eixo virtual
+- 🧪 Etapa de testes de estabilidade e correção de bugs
 
 - 🔊 Som dos freios
 - ❄️ Novo sistema de resfriamento
@@ -424,6 +457,16 @@ c2ad1129-8267-4e80-a0b6-2e0ddb93526c
 - 🎮 Suporte para controle
 - 🛞 Suporte para volante e pedais
 - 🚛 Compatibilidade com ETS2 e ATS
+
+---
+
+## 📦 v0.5
+
+- 🔊 Sistema anterior de som dos freios
+- ❄️ Resfriamento reformulado
+- 🔧 Influência do dano do chassi
+- ⚖️ Peso e velocidade influenciando o aquecimento
+- 🌡️ Alertas de temperatura e eficiência
 
 ---
 
@@ -514,7 +557,7 @@ incluindo suporte para diferentes dispositivos de controle.
 
 | Projeto | Versão | Status |
 |---|:---:|:---:|
-| 🔥 Super Aquecimento dos Freios (ETS2 / ATS) | `v0.5` | 🟢 Disponível / Beta |
+| 🔥 Super Aquecimento dos Freios (ETS2 / ATS) | `v0.6` | 🟢 Disponível / Beta |
 | 🚛 Novos Mods para ETS2 | `Em breve` | 🟡 Planejamento |
 
 ---
@@ -640,7 +683,7 @@ Você também pode contribuir voluntariamente pelo **Buy Me a Coffee** ou via
 [![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujca2-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujca2)
 [![GitHub](https://img.shields.io/badge/GitHub-RodrigoAraujo34-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/RodrigoAraujo34)
 [![YouTube](https://img.shields.io/badge/YouTube-Tutoriais-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=pR7P1BxTyl8)
-[![Download](https://img.shields.io/badge/Download-Brake_Fade_v0.5-4285F4?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
+[![Download](https://img.shields.io/badge/Download-Brake_Fade_v0.6-4285F4?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 [![Support](https://img.shields.io/badge/Support-Buy_Me_a_Coffee-FFDD00?style=flat-square&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/cesnnabravo)
 
 <br><br>
@@ -649,7 +692,7 @@ Você também pode contribuir voluntariamente pelo **Buy Me a Coffee** ou via
 
 <br>
 
-### 🔥 Brake Fade `v0.5` disponível para ETS2 e ATS!
+### 🔥 Brake Fade `v0.6` disponível para ETS2 e ATS!
 
 ### 💜 Gostou do projeto? Considere apoiar pelo Buy Me a Coffee ou via PIX.
 
