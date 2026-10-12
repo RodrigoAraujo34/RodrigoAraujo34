@@ -18,6 +18,7 @@
 [![Download MOD](https://img.shields.io/badge/Download-Brake_Fade_v0.6-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 [![Buy Me a Coffee](https://img.shields.io/badge/☕_Support-Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/cesnnabravo)
 [![Discord](https://img.shields.io/badge/Discord-Suporte_%26_Dúvidas-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/yFgebpcX8)
+[![PIX](https://img.shields.io/badge/PIX-APOIAR_VIA_PIX-32BCAD?style=for-the-badge&logo=pix&logoColor=white)](#pix-doacao)
 
 <br>
 
@@ -379,6 +380,8 @@ contribuição voluntária pelo **Buy Me a Coffee** ou via **PIX**.
 ![Gratuito](https://img.shields.io/badge/MOD-CONTINUA_GRATUITO-success?style=for-the-badge)
 
 <br><br>
+
+<a id="pix-doacao"></a>
 
 ## 🔑 Chave PIX
 
