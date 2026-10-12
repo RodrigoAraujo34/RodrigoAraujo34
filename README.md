@@ -17,6 +17,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-@rodrigoaraujoca2-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/rodrigoaraujoca2/)
 [![Download MOD](https://img.shields.io/badge/Download-Brake_Fade_v0.6-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
 [![Buy Me a Coffee](https://img.shields.io/badge/☕_Support-Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/cesnnabravo)
+[![Discord](https://img.shields.io/badge/Discord-Suporte_%26_Dúvidas-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/yFgebpcX8)
 
 <br>
 
@@ -295,6 +296,22 @@ Ao informar um problema, envie, se possível:
 - Arquivo `game.log.txt`, geralmente localizado na pasta de documentos do ETS2/ATS (ou na pasta definida pelo parâmetro `-homedir`).
 
 > **Privacidade:** antes de compartilhar logs ou capturas publicamente, confira se contêm caminhos pessoais ou outras informações que você não deseja divulgar.
+
+---
+
+# 💬 Suporte e Dúvidas — Discord Oficial
+
+Está com dificuldades para instalar ou configurar o **Brake Fade**? Encontrou algum bug ou quer compartilhar sugestões para as próximas versões?
+
+Entre no nosso servidor do Discord para conversar com a comunidade, tirar dúvidas e relatar problemas do mod.
+
+<div align="center">
+
+[![DISCORD — SUPORTE E DÚVIDAS](https://img.shields.io/badge/Discord-SUPORTE_%26_DÚVIDAS-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/yFgebpcX8)
+
+**🔗 Convite:** https://discord.gg/yFgebpcX8
+
+</div>
 
 ---
 
