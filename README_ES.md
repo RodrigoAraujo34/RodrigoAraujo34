@@ -1,196 +1,175 @@
 <div align="center">
 
-[![Português](https://img.shields.io/badge/Idioma-Português-009C3B?style=for-the-badge)](README.md)
-[![English](https://img.shields.io/badge/Language-English-1E90FF?style=for-the-badge)](README_EN.md)
-[![Español](https://img.shields.io/badge/Idioma-Español-EAA221?style=for-the-badge)](README_ES.md)
+[Português](README.md) · [English](README_EN.md) · [Español](README_ES.md)
 
-# 🚛 Rodrigo Araújo — CesnnaBravo
+# Rodrigo Araújo — CesnnaBravo
+### Mods para Euro Truck Simulator 2 y American Truck Simulator
 
-### Desarrollo de mods para ETS2 y ATS con ayuda de IA
-
-![Versión](https://img.shields.io/badge/BRAKE_FADE-v0.7-8A2BE2?style=for-the-badge)
+![Versión](https://img.shields.io/badge/ETS_BRAKE_FADE-0.7.3.1-5965F2?style=for-the-badge)
+![Plataforma](https://img.shields.io/badge/Windows-x64-0078D4?style=for-the-badge)
 ![Estado](https://img.shields.io/badge/ESTADO-BETA-F5A623?style=for-the-badge)
-![Plataforma](https://img.shields.io/badge/Windows-64_bits-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 
-[Descargas](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link) · [Discord](https://discord.gg/yFgebpcX8) · [Instagram](https://instagram.com/rodrigoaraujoca2/) · [Apoyar el desarrollo](https://buymeacoffee.com/cesnnabravo)
+[Descarga oficial](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link) · [Discord](https://discord.gg/yFgebpcX8) · [Instagram](https://instagram.com/rodrigoaraujoca2/) · [Apoyar el desarrollo](https://buymeacoffee.com/cesnnabravo)
 
 </div>
 
-## 👨‍💻 Sobre mí
+## Sobre el proyecto
 
-Soy Rodrigo Araújo Campos, conocido como CesnnaBravo. Desarrollo plugins DLL y mods para Euro Truck Simulator 2 y American Truck Simulator, utilizando inteligencia artificial como herramienta de apoyo. Mis proyectos se centran en el realismo, la simulación, nuevas mecánicas y la inmersión.
+Soy Rodrigo Araújo Campos, conocido como CesnnaBravo. Desarrollo mods y plugins DLL para ETS2 y ATS, utilizando IA como herramienta de apoyo. Me centro en la simulación, la dificultad y la inmersión.
 
-## 🔥 Brake Fade v0.7
+**ETS BRAKE FADE** simula la temperatura de los frenos y la pérdida de eficacia causada por el sobrecalentamiento. Las frenadas repetidas o prolongadas acumulan calor; el enfriamiento recupera gradualmente la eficacia térmica. La masa de la carga, la velocidad, el desgaste del chasis y la pendiente estimada influyen en el modelo.
 
-Brake Fade simula el calentamiento y la pérdida de eficacia de los frenos. La masa de la carga, la velocidad y el desgaste del chasis influyen en la simulación. El frenado continuo puede sobrecalentar los frenos y reducir gravemente su eficacia.
+La temperatura mostrada es **calculada por el mod**, no una medición real de discos o tambores individuales. Esta versión no incluye un sistema de sobrepeso ni un sistema independiente de desgaste/mantenimiento de frenos.
 
-### 🆕 Novedades
+## Novedades de la 0.7.3.1
 
-- **Dos modos en una DLL:** elige Teclado o Mando/volante desde el panel.
-- **Teclado:** mantén **S** para frenar y suéltala para liberar. No necesita mando ni calibración.
-- **Mando/volante:** mantiene el pedal o gatillo analógico y la calibración guardada.
-- **Nuevo panel F10:** navegación lateral, controles organizados, volumen, simulación y avisos.
-- **Tres idiomas:** portugués de Brasil, inglés y español, aplicados inmediatamente al panel, avisos, calibración, diagnóstico e historial mostrado.
-- **Atajos personalizables:** F7 y F10 son los valores predeterminados; F9 y S siguen siendo fijos.
-- **Diagnóstico y registros:** estado de la sesión, modo de entrada, audio, calibración y copia del historial.
-- **Preferencias guardadas:** modo, idioma, volumen, avisos, simulación y atajos.
+- **Panel claro o negro**, con el tema guardado y la interfaz en portugués, inglés y español.
+- **Ajustes térmicos:** temperatura de inicio del ruido, velocidad de calentamiento y de enfriamiento.
+- **Monitor de frenos:** temperatura simulada, eficacia, carga y pendiente estimada.
+- **Teclado, mando y volante en una sola DLL**, seleccionables en el panel.
+- **ETS2 y ATS:** identificación del juego y calibración guardada en su carpeta correspondiente.
+- **Nombre del dispositivo/eje en el juego:** `ETS BRAKE FADE 0.7.3.1`. Se conserva el identificador interno para mantener las asignaciones existentes.
+- **Comprobador de actualizaciones**, compatible con versiones de tres o cuatro números. El aviso requiere una versión superior publicada en el servidor; la instalación sigue siendo manual.
 
-Se mantienen el audio dinámico con WAV y textura procedural, las transiciones suaves, la simulación térmica, el enfriamiento y la influencia de la carga y del desgaste del chasis.
+### Correcciones incluidas
 
-![Panel Brake Fade v0.7 con el modo teclado seleccionado](assets/brake-fade-v07-teclado.png)
+| Área | Corrección |
+|---|---|
+| Carga en Windows | Runtime C++ incorporado en la DLL, eliminando las dependencias externas de Visual C++ relacionadas con el caso reportado de error `0000007E`. |
+| Panel térmico | Deslizadores dibujados por el propio panel para corregir barras vacías; admiten arrastre, teclado y reapertura. |
+| Indicador de freno del juego | Lectura del pedal/S en las opciones mientras la conducción está pausada, sin avanzar la simulación térmica. |
+| Calibración | Validación de finalización, recorrido, sentido y valores; los archivos inválidos no se consideran calibrados. |
+| Pedales | Persistencia de los ejes Slider 1/2 e intento de recuperación tras perder la lectura. |
+| Guardado | Archivo temporal antes de reemplazar la calibración y diagnóstico si no se puede guardar. |
+| ATS | Calibración separada de ETS2 y selección de la ventana mediante el proceso que cargó el plugin. |
+| Entrada/inicio | Resincronización del eje, F9 limitado a la ventana del juego y diagnóstico si falla el registro de eventos esenciales del SDK. |
+| Simulación | Tratamiento de telemetría inválida para evitar corromper de forma persistente la temperatura o la salida del freno. |
 
-*Captura real de la vista previa del panel, en portugués. Utiliza el selector de idioma para cambiar a español.*
+**El humo de los frenos no forma parte de esta actualización.** El experimento está aplazado y desactivado en la distribución normal.
 
-## 📥 Descarga oficial
+## Descarga
 
-[**Abrir la carpeta oficial de descargas**](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
+Utiliza la [carpeta oficial de descargas](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link) y comprueba que el ZIP sea la **0.7.3.1**. La carpeta puede contener versiones anteriores. El sitio web está en preparación; la carpeta anterior sigue siendo la referencia para descargar.
 
-**Comprueba que el paquete v0.7 esté disponible antes de descargarlo.** Actualizar este README no sube el paquete a Google Drive.
+## Instalación — Windows de 64 bits
 
-## 📦 Instalación
-
-1. Cierra completamente ETS2/ATS.
-2. En Steam, abre **Propiedades → Archivos instalados → Explorar** para localizar el juego.
-3. Abre `bin\win_x64\plugins`; crea `plugins` si no existe.
-4. Guarda una copia de las DLL antiguas de Brake Fade fuera de esa carpeta y retíralas de `plugins`.
-5. Copia la DLL v0.7 y la carpeta `sounds` del paquete a `plugins`.
-6. Inicia el juego, carga el perfil y la partida y entra en el camión.
-7. Pulsa **F10**, o tu atajo guardado, para abrir el panel.
+1. Cierra el juego y guarda una copia de la DLL anterior fuera de `plugins`.
+2. Extrae el paquete. Copia **`ets2_brake_fade.dll`** y **`sounds`** a la carpeta correspondiente:
 
 ```text
-bin/win_x64/plugins/
-├── ets2_brake_fade.dll
-└── sounds/
-    ├── audio carreta temperatura baixa.wav
-    └── audio_carreta temperatura alta.wav
+Euro Truck Simulator 2\bin\win_x64\plugins
+American Truck Simulator\bin\win_x64\plugins
 ```
 
-El nombre de la DLL puede variar; la compilación del proyecto también puede llamarse `ets2_brake_fade_wheel.dll`. **Instala solamente una DLL de Brake Fade.** La versión integrada incluye ambos modos aunque el nombre contenga `wheel`. No cambies los nombres de los WAV.
+3. Crea `plugins` si no existe. Mantén **solo una DLL de Brake Fade** en cada instalación.
+4. Conserva `brake_fade_v07.ini` para mantener tus preferencias. Si probaste el humo, retira `cb_brake_smoke_probe.dll` y reemplaza el host experimental por la DLL normal.
+5. Inicia el juego, carga un perfil/partida y entra en la conducción. Abre el panel con **F10** o tu atajo guardado.
 
-Es un plugin DLL, no un archivo `.scs` para activar en el Gestor de Mods.
+El archivo `ets2_brake_fade.dll` es el mismo para ambos juegos; no es exclusivo de ETS2. Se instala junto al ejecutable según las rutas indicadas, no como archivo `.scs` en el Gestor de Mods.
 
-## 🎯 Asignar el eje virtual — obligatorio en ambos modos
+## Teclado, mando y volante
 
-1. Cierra el panel del mod y abre **Opciones → Controles** del juego.
-2. Haz clic en el campo de asignación de **Eje del freno**.
-3. Sin accionar pedales o gatillos, pulsa **F9** una vez.
-4. Comprueba que se asigna el eje de Brake Fade. Puede aparecer como **ETS2 Brake Fade / Brake Fade Pedal**.
-5. Configura el modo del eje como **Normal**.
+| Tecla predeterminada | Función |
+|---|---|
+| F10 | Abrir/cerrar el panel. Configurable. |
+| F7 | Avanzar la calibración de mando/volante. Configurable. |
+| F9 | Enviar un pulso para asignar el eje virtual al freno. Fija. |
+| S | Freno en modo Teclado. Fija. |
+| Esc | Cerrar el panel o cancelar la captura de un atajo. |
 
-El juego debe usar el **eje virtual**, no el eje físico del freno directamente. Así recibe el frenado reducido por la simulación. F9 asigna el eje; no calibra el equipo.
+### Teclado
 
-### ⌨️ Teclado
+Selecciona **Teclado** en el panel. Mantén **S** para frenar y suéltala para liberar. No necesitas mando ni calibración.
 
-1. En **Configuración → Teclas y controles**, selecciona **Teclado**.
-2. Retira **S** del comando digital original de freno de servicio en **Teclas y botones** del juego.
-3. Mantén asignado el eje virtual mediante F9.
-4. Vuelve a la conducción, cierra el panel, suelta S y luego mantenla para frenar.
+Asigna el **eje virtual** al freno del juego: selecciona el campo **Eje del freno** y pulsa F9. Elimina la asignación digital original de S al freno para evitar que aplique frenado en paralelo y anule el efecto de fade.
 
-No necesitas conectar un mando ni calibrar. El plugin sigue leyendo S aunque retires la asignación digital del juego. Mantener ese comando original puede aplicar frenado en paralelo e impedir que notes la pérdida de eficacia.
+Durante la conducción, el plugin ignora S fuera de la ventana del juego o con su panel abierto. Al volver de una pausa o cambiar de modo, suelta S antes de pulsarla otra vez.
 
-S solicita frenado total, limitado por la eficacia actual. Después de una pausa, cambio de ventana o cambio de modo, suelta S antes de volver a pulsarla. El modo teclado ignora S fuera del juego, con el panel abierto y durante la pausa.
+### Mando, volante y pedales
 
-### 🛞 Volante y pedales
+Selecciona **Mando/volante** y comprueba el atajo de calibración guardado. Durante la conducción, con el panel cerrado:
 
-1. Conecta el equipo antes de iniciar el juego y comprueba su reconocimiento en Windows.
-2. Selecciona **Mando/volante** en el panel.
-3. Detén el camión, vuelve a la conducción y cierra el panel del mod.
-4. **Suelta totalmente el freno y pulsa F7.**
-5. **Pisa solamente el freno al 100%, mantenlo y pulsa F7 otra vez.**
-6. **Suéltalo completamente y pulsa F7 por tercera vez.**
-7. Comprueba el mensaje de calibración completada.
-8. Asigna el eje virtual con F9, en modo Normal, y prueba a baja velocidad.
+1. Suelta completamente el freno; pulsa y suelta el atajo de calibración.
+2. Pisa **solo el freno** hasta el 100%, mantenlo y pulsa el atajo nuevamente.
+3. Suelta completamente el freno y pulsa el atajo por tercera vez.
+4. Comprueba la finalización y el guardado en **Diagnóstico**.
+5. Selecciona **Eje del freno** en las opciones del juego y usa F9 para asignar el eje virtual.
 
-No muevas otros pedales o ejes durante la calibración. La dirección, el acelerador y el embrague pueden conservar sus asignaciones físicas habituales. Si cambiaste el atajo de calibración, utiliza esa tecla en lugar de F7.
+Comprueba la polaridad: el indicador debe quedar en reposo al soltar el pedal y aumentar al pisarlo. **Conserva Normal/Invertido si ya funciona correctamente en tu perfil.** Nunca asignes Brake Fade a la dirección.
 
-### 🎮 Mando / gamepad
+Los archivos antiguos sin confirmación de calibración completada requieren recalibrar una vez. Se pueden reutilizar archivos válidos de la revisión de estabilidad. La compatibilidad depende de que el controlador exponga un eje analógico legible; no se garantiza para todos los dispositivos.
 
-Selecciona **Mando/volante** y calibra el gatillo o eje analógico del freno siguiendo las mismas etapas: **suelto → F7; totalmente presionado → F7; suelto → F7**. Hazlo en la conducción con el panel cerrado.
+### Ubicación de los archivos
 
-Después asigna el eje virtual con F9 y modo Normal. Retira comandos digitales de freno que puedan actuar en paralelo. No muevas las palancas ni otros gatillos durante la calibración. Un control presentado solamente como botón digital puede no ser detectado como eje del freno.
+| Archivo | Ubicación |
+|---|---|
+| Preferencias y atajos | `brake_fade_v07.ini`, junto a la DLL. |
+| Registro del plugin | `brake_fade_v07.log`, junto a la DLL. |
+| Calibración ETS2 | `Documentos\Euro Truck Simulator 2\BrakeFade\wheel_config.ini` |
+| Calibración ATS | `Documentos\American Truck Simulator\BrakeFade\wheel_config.ini` |
 
-### 🔄 Cambiar de modo y recalibrar
+Las rutas siguen la ubicación de Documentos configurada en Windows. ETS2 y ATS tienen calibraciones separadas. Si una versión antigua de ATS guardó en la carpeta de ETS2, recalibra en ATS; no hace falta borrar el archivo de ETS2.
 
-Detén el camión, suelta los controles de frenado y selecciona el modo en el panel. La opción se guarda y la calibración del volante/mando se conserva. El mismo eje virtual sirve para los dos modos.
+## Personalizar los frenos
 
-Si ya existe una calibración activa, el atajo inicia una nueva calibración. Sigue las instrucciones para presionar totalmente, confirmar, soltar y confirmar de nuevo. Si vienes de la antigua DLL exclusiva de teclado, revisa la asignación F9: el dispositivo integrado conserva el identificador de la versión de volante.
+En **Ajustes térmicos**:
 
-## ⌨️ Atajos e idiomas
+| Ajuste | Rango | Predeterminado |
+|---|---|---|
+| Temperatura de inicio del ruido | 50–500 °C | 100 °C |
+| Velocidad de enfriamiento | 25–200% | 100% |
+| Velocidad de calentamiento | 25–200% | 100% |
 
-| Tecla predeterminada | Acción |
-|:---:|:---|
-| F10 | Abrir/cerrar panel |
-| F7 | Calibrar/recalibrar mando o volante |
-| F9 | Asignar eje virtual; fija |
-| S | Frenar con teclado; fija |
-| Esc | Cerrar panel o cancelar cambio de atajo |
+**Mayor porcentaje = más rápido; menor porcentaje = más lento.** Son tasas, no tiempos en segundos. El ruido requiere frenar en movimiento y aumenta gradualmente por encima del umbral.
 
-Puedes cambiar F7/F10 por teclas entre F1 y F12, excepto F9. Los dos atajos deben ser diferentes. **Restaurar atajos predeterminados** devuelve F7/F10.
+El 100% conserva el ajuste de enfriamiento lento. En una prueba del modelo sin frenar, bajar de 500 °C a 150 °C tardó unos **6min30s detenido** y **3min43s a 80 km/h**. Son referencias del tiempo activo de la simulación, no mediciones de un camión real; las frenadas y otros ajustes cambian el resultado.
 
-En **Idioma / Language**, elige Português (Brasil), English (US) o Español. El cambio es inmediato y queda guardado. Los identificadores técnicos, nombres de archivos y códigos de error no cambian. Las líneas ya escritas en el archivo de registro conservan el idioma utilizado al guardarlas.
+El botón **Tema: claro / Tema: oscuro** está en la parte inferior de la barra lateral. También se pueden ajustar volumen, idioma, avisos y simulación. Las preferencias se guardan automáticamente.
 
-## 🌡️ Temperatura, carga y desgaste
+## Solución de problemas y soporte
 
-| Temperatura | Eficacia térmica |
-|:---:|:---:|
-| Hasta 150 °C | 100% |
-| 200 °C | 95% |
-| 250 °C | 85% |
-| 300 °C | 70% |
-| 350 °C | 50% |
-| 400 °C | 30% |
-| 450 °C | 15% |
-| 500 °C o más | 0% |
+- **No aparece el panel ni los avisos:** revisa `game.log.txt`. `unable to load: 0000007E` ocurre antes de iniciar el plugin. Usa el paquete actualizado; incorpora el runtime C++ y elimina las dependencias externas de Visual C++ de la compilación anterior. Si persiste, envía un registro nuevo.
+- **No frena:** comprueba el modo, la calibración y la asignación del eje virtual al freno. Prueba el indicador en las opciones del juego.
+- **Dirección brusca con A/D:** revisa las asignaciones y el tipo de control del juego. El eje virtual del mod debe actuar solo sobre el freno.
+- **La calibración no se guarda:** revisa Diagnóstico y envía el registro. Puede funcionar en la sesión actual y requerir repetirla al reiniciar si el guardado falló.
+- **Sin audio:** comprueba volumen, simulación activada, salida de Windows y `sounds`. Los WAV usan PCM de 16 bits, mono o estéreo. El audio procedural puede funcionar sin los WAV.
+- **Sin aviso superpuesto:** prueba Ventana o Ventana sin bordes. La pantalla completa exclusiva puede impedir que aparezca.
 
-La eficacia cambia progresivamente entre esos puntos. El desgaste del chasis también limita la eficacia final. Los avisos comienzan a 300, 350, 400, 450 y 500 °C. Tras un aviso de calentamiento, la recuperación se anuncia al bajar a 150 °C o menos.
+En [Discord](https://discord.gg/yFgebpcX8), indica las versiones del mod y del juego, equipo, modo de entrada y pasos para reproducir el problema. Envía `game.log.txt` y `brake_fade_v07.log` del intento afectado. El registro del juego suele estar en Documentos, en la carpeta de ETS2/ATS, o en el `-homedir` personalizado.
 
-La masa de la carga recibida por telemetría influye en el calentamiento. La velocidad afecta al calentamiento y al enfriamiento. Utiliza el freno motor, el retarder cuando esté disponible y planifica las frenadas dentro del juego.
+La compilación x64 y **ocho pruebas automatizadas** pasaron, incluyendo carga de la DLL, identificación ATS/ETS2, dependencias, calibración, idiomas, entrada, física térmica y panel. Los usuarios han confirmado las correcciones de los casos reportados; esto no garantiza ausencia de fallos en todas las configuraciones.
 
-## 🛠️ Solución de problemas
-
-| Problema | Qué comprobar |
-|:---|:---|
-| El panel no abre | Carpeta correcta, DLL extraída, juego reiniciado, atajo guardado y tecla Fn si corresponde. |
-| Esperando perfil/partida | Carga la partida y entra en la conducción. |
-| S no frena | Modo Teclado, eje virtual asignado, juego en primer plano, panel cerrado y S suelta antes de pulsarla de nuevo. |
-| Falla la calibración | Eje analógico reconocido, modo Mando/volante, panel cerrado y únicamente el freno en movimiento. |
-| El freno queda accionado | Recalibra, selecciona modo Normal y retira asignaciones en conflicto. |
-| No se nota la pérdida de eficacia | Simulación activada, eje virtual asignado y ningún freno físico/digital actuando en paralelo. |
-| F9 no asigna | Haz clic primero en el campo Eje del freno; comprueba Fn + F9 si hace falta. |
-| Falta audio | Volumen del mod, simulación activada, salida de Windows, carpeta y nombres exactos de los WAV; PCM 16 bits mono/estéreo. |
-| No se ven los avisos | Prueba Ventana o Ventana sin bordes. La pantalla completa exclusiva no está garantizada. |
-
-La textura procedural puede sonar aunque falten las capas WAV. Escuchar algún sonido no confirma que ambos archivos se hayan cargado.
-
-## 💬 Soporte
-
-Consulta **Diagnóstico** y **Registros** en el panel. Indica juego y versión, Brake Fade v0.7, modo, equipo, pasos para reproducir y una captura o los registros copiados.
-
-- `brake_fade_v07.log`: junto a la DLL.
-- `game.log.txt`: normalmente en `Documentos\Euro Truck Simulator 2` o `Documentos\American Truck Simulator`, o en tu carpeta `-homedir`.
-- [Discord de soporte y comunidad](https://discord.gg/yFgebpcX8)
-
-Las preferencias se guardan en `brake_fade_v07.ini`, junto a la DLL. La calibración del volante/mando se almacena por separado.
-
-## 🎥 Tutoriales en vídeo
+## Tutoriales en vídeo
 
 [Tutorial 1](https://www.youtube.com/watch?v=pR7P1BxTyl8) · [Tutorial 2](https://www.youtube.com/watch?v=25W1FI4E_3o&t=205s)
 
-Los vídeos pueden mostrar versiones anteriores. Para los modos y atajos personalizables de v0.7, sigue este README.
+Los vídeos pueden mostrar versiones anteriores. Para atajos, instalación y calibración de la 0.7.3.1, sigue este README.
 
-## 📜 Historial
+## Historial de versiones
 
-- **v0.7 — Beta actual:** modos integrados, nuevo panel, tres idiomas, atajos personalizables, diagnóstico y preferencias guardadas.
-- **v0.6:** audio dinámico, transiciones suaves, F7 como calibración predeterminada y F9 para asignar el eje.
-- **v0.5:** audio anterior, enfriamiento revisado e influencia del desgaste y la carga.
-- **v0.4:** avisos, visualización de eficacia, confirmación de calibración y ajustes guardados.
-- **v0.3:** compatibilidad ampliada con dispositivos de entrada.
+| Versión | Cambios principales |
+|---|---|
+| **0.7.3.1** | Temas claro/oscuro, ajustes térmicos, monitor, correcciones del panel/calibración/entrada, soporte ATS revisado y carga sin dependencias externas de Visual C++. |
+| 0.7 | Modos de entrada unificados, panel rediseñado, tres idiomas, atajos y diagnóstico. |
+| 0.6 | Audio dinámico y transiciones suaves. |
+| 0.5 | Ajustes de enfriamiento e influencia de carga/desgaste del chasis. |
+| 0.4 | Avisos de temperatura, calibración y preferencias guardadas. |
+| 0.3 | Mayor soporte de dispositivos de entrada. |
 
-Es una beta. Se verificaron la compilación, los controles automatizados y la vista previa del panel; la validación dentro del juego con diferentes equipos y configuraciones continúa con los jugadores.
+## Próximas mejoras — en estudio
 
-## 💜 Apoya el desarrollo
+- Continuar corrigiendo fallos con los registros y comentarios de la comunidad.
+- Ampliar las pruebas con volantes, pedales y mandos en ETS2 y ATS.
+- Refinar diagnóstico, interfaz y comportamiento térmico según los jugadores.
+- Retomar la investigación de humo en los frenos después de la fase de estabilidad. El prototipo actual es diagnóstico y **no emite partículas visuales**.
 
-Brake Fade es gratuito. Las donaciones son opcionales y no son necesarias para descargar ni utilizar el mod.
+Estos puntos no son funciones disponibles ni promesas de fechas o compatibilidad. La prioridad actual es la estabilidad.
+
+Las versiones antiguas que solo reconocen tres números no detectan automáticamente `0.7.3.1`; esta migración es manual. El comprobador de esta versión reconoce tres o cuatro componentes y no instala DLLs automáticamente.
+
+## Apoyar el desarrollo
+
+El mod es gratuito. Las donaciones son opcionales y no hacen falta para descargarlo ni utilizarlo.
 
 [Buy Me a Coffee](https://buymeacoffee.com/cesnnabravo)
 
@@ -200,6 +179,6 @@ PIX — clave aleatoria, Rodrigo Araújo Campos:
 c2ad1129-8267-4e80-a0b6-2e0ddb93526c
 ```
 
-También puedes apoyar dejando una ⭐ en [GitHub](https://github.com/RodrigoAraujo34/RodrigoAraujo34).
+[Instagram](https://instagram.com/rodrigoaraujoca2/) · [Discord](https://discord.gg/yFgebpcX8) · [GitHub](https://github.com/RodrigoAraujo34/RodrigoAraujo34)
 
-**Realismo • Simulación • Inmersión — Rodrigo Araújo Campos / CesnnaBravo**
+**Realismo • Simulación • Inmersión — CesnnaBravo**
