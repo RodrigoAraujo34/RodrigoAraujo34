@@ -1,196 +1,175 @@
 <div align="center">
 
-[![Português](https://img.shields.io/badge/Idioma-Português-009C3B?style=for-the-badge)](README.md)
-[![English](https://img.shields.io/badge/Language-English-1E90FF?style=for-the-badge)](README_EN.md)
-[![Español](https://img.shields.io/badge/Idioma-Español-EAA221?style=for-the-badge)](README_ES.md)
+[Português](README.md) · [English](README_EN.md) · [Español](README_ES.md)
 
-# 🚛 Rodrigo Araújo — CesnnaBravo
+# Rodrigo Araújo — CesnnaBravo
+### Mods for Euro Truck Simulator 2 and American Truck Simulator
 
-### ETS2 and ATS mod development with AI assistance
-
-![Version](https://img.shields.io/badge/BRAKE_FADE-v0.7-8A2BE2?style=for-the-badge)
+![Version](https://img.shields.io/badge/ETS_BRAKE_FADE-0.7.3.1-5965F2?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Windows-x64-0078D4?style=for-the-badge)
 ![Status](https://img.shields.io/badge/STATUS-BETA-F5A623?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Windows-64_bit-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 
-[Downloads](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link) · [Discord](https://discord.gg/yFgebpcX8) · [Instagram](https://instagram.com/rodrigoaraujoca2/) · [Support development](https://buymeacoffee.com/cesnnabravo)
+[Official download](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link) · [Discord](https://discord.gg/yFgebpcX8) · [Instagram](https://instagram.com/rodrigoaraujoca2/) · [Support development](https://buymeacoffee.com/cesnnabravo)
 
 </div>
 
-## 👨‍💻 About me
+## About the project
 
-I am Rodrigo Araújo Campos, also known as CesnnaBravo. I develop DLL plugins and mods for Euro Truck Simulator 2 and American Truck Simulator, using artificial intelligence as a development aid. My projects focus on realism, simulation, new mechanics, and immersion.
+I am Rodrigo Araújo Campos, also known as CesnnaBravo. I develop mods and DLL plugins for ETS2 and ATS, using AI as a development aid. My focus is simulation, challenge and immersion.
 
-## 🔥 Brake Fade v0.7
+**ETS BRAKE FADE** simulates brake temperature and the loss of braking efficiency caused by overheating. Repeated or prolonged braking builds heat; cooling gradually restores thermal efficiency. Cargo mass, speed, chassis wear and estimated incline influence the model.
 
-Brake Fade simulates brake temperature and reduced braking efficiency. Cargo mass, speed, and chassis wear influence the simulation. Continuous braking can overheat the brakes and severely reduce their effectiveness.
+The displayed temperature is **calculated by the mod**, not a real measurement of individual discs or drums. This version has no overload system or separate brake wear/maintenance system.
 
-### 🆕 What is new?
+## What is new in 0.7.3.1?
 
-- **Two input modes in one DLL:** select Keyboard or Controller/wheel in the panel.
-- **Keyboard:** hold **S** to brake; release it to let go. No controller or calibration required.
-- **Controller/wheel:** retain analog pedal or trigger input and saved calibration.
-- **Redesigned F10 panel:** sidebar navigation, organized settings, volume, simulation, and warnings.
-- **Three languages:** Brazilian Portuguese, English, and Spanish, applied immediately to the panel, warnings, calibration instructions, diagnostics, and displayed history.
-- **Custom shortcuts:** F7 and F10 are defaults; choose other function keys in the panel. F9 and S remain fixed.
-- **Diagnostics and logs:** check session status, input mode, audio, and calibration, and copy event history for support.
-- **Saved preferences:** input mode, language, volume, warning visibility, simulation, and shortcuts.
+- **Light or dark panel**, with a saved theme preference and Portuguese, English and Spanish interfaces.
+- **Thermal settings:** noise onset temperature, heating rate and cooling rate.
+- **Brake monitor:** simulated temperature, efficiency, cargo and estimated incline.
+- **Keyboard, controller and steering wheel in one DLL**, selectable in the panel.
+- **ETS2 and ATS:** game identification and calibration stored in the correct game folder.
+- **In-game device/axis label:** `ETS BRAKE FADE 0.7.3.1`. The internal identifier is unchanged to preserve existing bindings.
+- **Update checker**, supporting three-part and four-part versions. Notifications require a newer release on the server; installation remains manual.
 
-Dynamic audio, WAV layers, procedural sound, smooth transitions, thermal simulation, cooling, cargo influence, and chassis wear remain part of the mod.
+### Included fixes
 
-![Brake Fade v0.7 panel with keyboard mode selected](assets/brake-fade-v07-teclado.png)
+| Area | Fix |
+|---|---|
+| Windows loading | C++ runtime bundled into the DLL, removing the external Visual C++ dependencies involved in the reported `0000007E` loading failure. |
+| Thermal panel | Panel-rendered sliders replace blank tracks; dragging, keyboard adjustment and reopening are supported. |
+| In-game brake meter | Pedal/S preview works in control options while driving is paused, without advancing the thermal simulation. |
+| Calibration | Completion, travel, direction and stored values are validated; invalid files are not treated as calibrated. |
+| Pedals | Slider 1/2 axis persistence and an attempt to recover after input loss. |
+| Saving | Temporary-file write before replacing calibration; diagnostics report save failure. |
+| ATS | Separate calibration from ETS2; game window selected by the process hosting the plugin. |
+| Input/startup | Axis resynchronization, F9 restricted to the game window and diagnostics for essential SDK event registration failure. |
+| Simulation | Invalid telemetry is handled to prevent persistent temperature or brake-output corruption. |
 
-*Actual standalone panel preview, shown in Portuguese. Use the language selector to switch to English.*
+**Brake smoke is not included in this update.** The experiment is postponed and disabled in the normal distribution.
 
-## 📥 Official downloads
+## Download
 
-[**Open the official download folder**](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link)
+Use the [official download folder](https://drive.google.com/drive/folders/10GtsLWKFm5A8UQ5ram_yBqZJTe6cOlUx?usp=drive_link) and check that the ZIP is **0.7.3.1**. Older packages may remain in the folder. The website is being prepared; the folder above remains the download reference.
 
-**Check that the v0.7 package is present before downloading.** Updating this README does not upload the binary package to Google Drive.
+## Installation — Windows 64-bit
 
-## 📦 Installation
-
-1. Completely close ETS2/ATS.
-2. In Steam, open the game's **Properties → Installed Files → Browse**.
-3. Open `bin\win_x64\plugins`; create `plugins` if it does not exist.
-4. Back up older Brake Fade DLLs outside that folder and remove them from `plugins`.
-5. Copy the v0.7 DLL and the supplied `sounds` folder into `plugins`.
-6. Start the game, load your profile/save, and enter your truck.
-7. Press **F10**, or your saved shortcut, to open the panel.
+1. Close the game and keep a backup of the previous DLL outside `plugins`.
+2. Extract the package. Copy **`ets2_brake_fade.dll`** and **`sounds`** to the appropriate installation folder:
 
 ```text
-bin/win_x64/plugins/
-├── ets2_brake_fade.dll
-└── sounds/
-    ├── audio carreta temperatura baixa.wav
-    └── audio_carreta temperatura alta.wav
+Euro Truck Simulator 2\bin\win_x64\plugins
+American Truck Simulator\bin\win_x64\plugins
 ```
 
-The DLL name may vary by package; the source build may use `ets2_brake_fade_wheel.dll`. **Install only one Brake Fade DLL.** The integrated version supports both modes even if its filename contains `wheel`. Keep the WAV filenames unchanged.
+3. Create `plugins` if needed. Keep **only one Brake Fade DLL** in each installation.
+4. Preserve `brake_fade_v07.ini` to retain preferences. If you tested smoke, remove `cb_brake_smoke_probe.dll` and replace the experimental host with the normal DLL.
+5. Start the game, load a profile/save and enter driving mode. Open the panel with **F10** or your saved shortcut.
 
-This is a DLL plugin, not an `.scs` file to enable in Mod Manager.
+The filename `ets2_brake_fade.dll` is the same for both games; it is not ETS2-only. Install the plugin beside the game executable as described above, not as an `.scs` file in Mod Manager.
 
-## 🎯 Assign the virtual brake axis — both modes
+## Keyboard, controller and wheel
 
-1. Close the mod panel and open **Options → Controls** in the game.
-2. Click the **Brake axis** assignment field.
-3. Without operating your pedal or trigger, press **F9** once.
-4. Check that the Brake Fade axis is assigned. It may appear as **ETS2 Brake Fade / Brake Fade Pedal**.
-5. Set brake axis mode to **Normal**.
+| Default key | Function |
+|---|---|
+| F10 | Open/close the panel. Customizable. |
+| F7 | Advance controller/wheel calibration. Customizable. |
+| F9 | Send a pulse to bind the virtual brake axis. Fixed. |
+| S | Brake in Keyboard mode. Fixed. |
+| Esc | Close the panel or cancel shortcut capture. |
 
-The game must use the **virtual axis**, not the physical brake axis directly. This is how the plugin sends braking reduced by fade. F9 assigns the axis; it does not calibrate your equipment.
+### Keyboard
 
-### ⌨️ Keyboard
+Select **Keyboard** in the panel. Hold **S** to brake; release it to stop braking. No controller or calibration is required.
 
-1. In **Settings → Keys and controls**, select **Keyboard**.
-2. Remove **S** from the game's original digital service brake binding in **Keys & Buttons**.
-3. Keep the virtual brake axis assigned with F9.
-4. Return to driving, close the panel, release S, then hold S to brake.
+Assign the **virtual axis** to the game's brake: select the **Brake axis** binding field and press F9. Remove the game's original digital S brake binding so it does not apply braking in parallel and bypass fade.
 
-No controller or calibration is needed. The plugin still reads S after its original game binding is removed. Keeping that digital binding can apply braking in parallel and bypass the intended fade effect.
+During driving, the plugin ignores S outside the game window or while its panel is open. After returning from pause or switching modes, release S before pressing it again.
 
-S requests full braking, limited by current brake efficiency. Release S before pressing it again after a pause, focus change, or mode switch. Keyboard braking is blocked outside the game, while the panel is open, and while driving is paused.
+### Controller, wheel and pedals
 
-### 🛞 Steering wheel and pedals
+Select **Controller/wheel** and check your saved calibration shortcut. While in driving mode, with the panel closed:
 
-1. Connect the equipment before starting the game and check that Windows recognizes it.
-2. Select **Controller/wheel** in the panel.
-3. Stop the truck, return to driving, and close the mod panel.
-4. **Release the brake fully and press F7.**
-5. **Press only the brake to 100%, hold it there, and press F7 again.**
-6. **Fully release it and press F7 a third time.**
-7. Check the calibration complete message.
-8. Assign the virtual brake axis using F9, in Normal mode, and test at low speed.
+1. Fully release the brake; press and release the calibration shortcut.
+2. Press **only the brake** to 100%, hold it and press the shortcut again.
+3. Fully release the brake and press the shortcut a third time.
+4. Check completion and saving in **Diagnostics**.
+5. Select **Brake axis** in the game's options and use F9 to bind the virtual axis.
 
-Do not move other pedals or axes during calibration. Steering, accelerator, and clutch can retain their normal physical axis assignments. Use your customized calibration key if you changed F7.
+Check polarity: the meter should be at rest with the pedal released and increase when pressed. **Keep Normal/Inverted if it already works correctly in your profile.** Never bind Brake Fade to steering.
 
-### 🎮 Controller/gamepad
+Old files without calibration-completion confirmation require recalibration once. Valid files from the stability revision can be reused. Compatibility depends on the driver exposing a readable analog axis; not every device is guaranteed.
 
-Select **Controller/wheel** and calibrate the intended analog brake trigger/axis using the same three stages: **released → F7; fully pressed → F7; released → F7**. Close the panel and perform calibration in driving mode.
+### File locations
 
-Then assign the virtual axis with F9 in Normal mode. Remove digital brake bindings that could act in parallel. Do not move thumbsticks or other triggers during calibration. A control exposed only as a digital button may not be detected as a brake axis.
+| File | Location |
+|---|---|
+| Preferences and shortcuts | `brake_fade_v07.ini`, beside the DLL. |
+| Plugin log | `brake_fade_v07.log`, beside the DLL. |
+| ETS2 calibration | `Documents\Euro Truck Simulator 2\BrakeFade\wheel_config.ini` |
+| ATS calibration | `Documents\American Truck Simulator\BrakeFade\wheel_config.ini` |
 
-### 🔄 Switching modes and recalibrating
+Paths follow your Windows Documents location. ETS2 and ATS have separate calibrations. If an older ATS build saved calibration in the ETS2 folder, recalibrate in ATS; there is no need to delete the ETS2 file.
 
-Stop the truck, release all brake inputs, and choose the mode in the panel. Your choice is saved; wheel calibration is retained. The same virtual axis serves both modes.
+## Customize braking
 
-If calibration is already active, pressing the calibration shortcut starts recalibration. Follow the instructions to press fully, confirm, release, and confirm again. Users migrating from the old keyboard-only DLL should recheck the F9 assignment because the integrated device retains the wheel version's identifier.
+In **Thermal settings**:
 
-## ⌨️ Shortcuts and languages
+| Setting | Range | Default |
+|---|---|---|
+| Noise onset temperature | 50–500 °C | 100 °C |
+| Cooling rate | 25–200% | 100% |
+| Heating rate | 25–200% | 100% |
 
-| Default | Action |
-|:---:|:---|
-| F10 | Open/close panel |
-| F7 | Calibrate/recalibrate controller or wheel |
-| F9 | Assign virtual axis; fixed |
-| S | Keyboard brake; fixed |
-| Esc | Close panel or cancel shortcut capture |
+**Higher rate = faster; lower rate = slower.** These percentages are rates, not durations in seconds. Noise requires braking and movement and increases gradually above the threshold.
 
-Customize F7/F10 using F1–F12 except F9; the two shortcuts must differ. **Restore default shortcuts** returns them to F7/F10.
+100% preserves the slower cooling adjustment. In a model test without braking, cooling from 500 °C to 150 °C took about **6 min 30 sec stationary** and **3 min 43 sec at 80 km/h**. These are active simulation-time references, not real-truck measurements; braking and different settings change the result.
 
-Use **Language / Idioma** to select Português (Brasil), English (US), or Español. The choice takes effect immediately and is saved. Technical identifiers, filenames, and error codes remain unchanged. Existing disk log lines retain the language used when written.
+The **Theme: light / Theme: dark** button is near the bottom of the sidebar. Volume, language, warnings and simulation are also configurable. Preferences save automatically.
 
-## 🌡️ Temperature, load, and wear
+## Troubleshooting and support
 
-| Temperature | Thermal efficiency |
-|:---:|:---:|
-| Up to 150 °C | 100% |
-| 200 °C | 95% |
-| 250 °C | 85% |
-| 300 °C | 70% |
-| 350 °C | 50% |
-| 400 °C | 30% |
-| 450 °C | 15% |
-| 500 °C or above | 0% |
+- **No panel or notifications:** check `game.log.txt`. `unable to load: 0000007E` occurs before plugin startup. Use the updated package; it bundles the C++ runtime and removes the previous build's external Visual C++ dependencies. If it persists, send a fresh log.
+- **No braking:** check input mode, calibration and the virtual brake-axis binding. Test the meter in the game's options.
+- **Abrupt A/D steering:** check the game's controller type and bindings. The mod's virtual axis must control only the brake.
+- **Calibration is not saved:** check Diagnostics and send the log. A calibration may work for the current session but require repeating after restart if saving failed.
+- **No audio:** check volume, enabled simulation, Windows output and `sounds`. WAV layers use 16-bit PCM, mono or stereo. Procedural audio can work even without the WAVs.
+- **No overlay:** try Windowed or Borderless Windowed. Exclusive fullscreen may prevent display.
 
-Efficiency changes progressively between these points. Chassis wear also limits final efficiency. Warnings start at 300, 350, 400, 450, and 500 °C; recovery is announced after a heat warning when temperature falls to 150 °C or below.
+On [Discord](https://discord.gg/yFgebpcX8), include the mod/game versions, equipment, input mode and reproduction steps. Send `game.log.txt` and `brake_fade_v07.log` from the affected attempt. The game log is usually in its ETS2/ATS Documents folder, or your custom `-homedir`.
 
-Cargo mass from telemetry affects heating; speed influences heating and cooling. Use the engine brake and retarder when available and plan your braking in the game.
+The x64 build and **eight automated tests** passed, covering DLL loading, ATS/ETS2 identification, dependencies, calibration, languages, input, thermal physics and the panel. Users have confirmed the fixes for reported cases; this does not guarantee bug-free operation on every setup.
 
-## 🛠️ Troubleshooting
-
-| Problem | Check |
-|:---|:---|
-| Panel does not open | Correct DLL folder, extracted files, game restarted, saved shortcut, Fn key if needed. |
-| Waiting for profile/save | Load the save and enter driving mode. |
-| S does not brake | Keyboard mode, virtual axis assigned, game focused, panel closed, release S before pressing again. |
-| Calibration fails | Recognized analog axis, Controller/wheel mode, panel closed, only brake moved. |
-| Brake remains applied | Recalibrate, use Normal axis mode, remove conflicting bindings. |
-| Fade has no effect | Simulation enabled, virtual brake axis assigned, no physical/digital brake acting in parallel. |
-| F9 does not assign | Click the Brake axis assignment field first; check Fn + F9 if needed. |
-| Audio missing | Panel volume, simulation enabled, Windows output, `sounds` folder, exact WAV filenames; 16-bit PCM mono/stereo. |
-| Overlay missing | Try Windowed or Borderless Windowed. Exclusive fullscreen is not guaranteed. |
-
-Procedural sound may still play if WAV layers are missing. Hearing some audio does not confirm both WAVs loaded.
-
-## 💬 Support
-
-Use **Diagnostics** and **Logs** in the panel. Include the game/version, Brake Fade v0.7, input mode, equipment model, reproduction steps, and a screenshot or copied logs.
-
-- `brake_fade_v07.log`: next to the DLL.
-- `game.log.txt`: usually under `Documents\Euro Truck Simulator 2` or `Documents\American Truck Simulator`, or your custom `-homedir`.
-- [Discord support and community](https://discord.gg/yFgebpcX8)
-
-Preferences are saved in `brake_fade_v07.ini` beside the DLL. Wheel calibration is stored separately.
-
-## 🎥 Video tutorials
+## Video tutorials
 
 [Tutorial 1](https://www.youtube.com/watch?v=pR7P1BxTyl8) · [Tutorial 2](https://www.youtube.com/watch?v=25W1FI4E_3o&t=205s)
 
-Videos may show an earlier version. Use this README for v0.7 mode selection and customizable shortcuts.
+Videos may show earlier versions. Follow this README for 0.7.3.1 shortcuts, installation and calibration.
 
-## 📜 Version history
+## Version history
 
-- **v0.7 — Current beta:** unified input modes, redesigned panel, three languages, customizable shortcuts, diagnostics, and saved preferences.
-- **v0.6:** dynamic audio, smooth transitions, F7 as the default calibration key, F9 for axis assignment.
-- **v0.5:** earlier brake audio, revised cooling, chassis wear and cargo influence.
-- **v0.4:** temperature warnings, efficiency display, calibration confirmation, and saved settings.
-- **v0.3:** expanded input device support.
+| Version | Main changes |
+|---|---|
+| **0.7.3.1** | Light/dark themes, thermal settings, monitor, panel/calibration/input fixes, revised ATS support and loading without external Visual C++ dependencies. |
+| 0.7 | Unified input modes, redesigned panel, three languages, shortcuts and diagnostics. |
+| 0.6 | Dynamic audio and smooth transitions. |
+| 0.5 | Revised cooling and cargo/chassis-wear influence. |
+| 0.4 | Temperature warnings, calibration and saved settings. |
+| 0.3 | Expanded input-device support. |
 
-This is a beta. Builds, automated checks, and panel previews were verified; in-game behavior across different equipment and configurations remains part of player testing.
+## Future improvements — under consideration
 
-## 💜 Support development
+- Continue fixing issues using community reports and logs.
+- Broaden wheel, pedal and controller testing in ETS2 and ATS.
+- Refine diagnostics, interface and thermal behavior using player feedback.
+- Resume brake-smoke research after stability work. The current prototype is diagnostic and **does not render visual particles**.
 
-Brake Fade is free. Donations are optional and are not required to download or use the mod.
+These are not available features or promises of dates or compatibility. Stability is the current priority.
+
+Older builds that only recognize three-part versions cannot automatically detect `0.7.3.1`; this migration is manual. This version's checker understands three or four components and never installs DLLs automatically.
+
+## Support development
+
+The mod is free. Donations are optional and are not needed to download or use it.
 
 [Buy Me a Coffee](https://buymeacoffee.com/cesnnabravo)
 
@@ -200,6 +179,6 @@ PIX — random key, Rodrigo Araújo Campos:
 c2ad1129-8267-4e80-a0b6-2e0ddb93526c
 ```
 
-You can also support the project by leaving a ⭐ on [GitHub](https://github.com/RodrigoAraujo34/RodrigoAraujo34).
+[Instagram](https://instagram.com/rodrigoaraujoca2/) · [Discord](https://discord.gg/yFgebpcX8) · [GitHub](https://github.com/RodrigoAraujo34/RodrigoAraujo34)
 
-**Realism • Simulation • Immersion — Rodrigo Araújo Campos / CesnnaBravo**
+**Realism • Simulation • Immersion — CesnnaBravo**
